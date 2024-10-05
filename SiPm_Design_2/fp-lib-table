@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "S4N44P014M")(type "KiCad")(uri "F:/github/SiPm_PCB/LIB_AFBR-S4N44P014M/AFBR-S4N44P014M/KiCad")(options "")(descr ""))
+  (lib (name "OPA354AIDDAR")(type "KiCad")(uri "F:/github/SiPm_PCB/LIB_OPA354AIDDAR/OPA354AIDDAR/KiCad")(options "")(descr ""))
+)

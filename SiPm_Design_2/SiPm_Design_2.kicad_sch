@@ -2230,7 +2230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 84.7852 114.3 0)
 			(effects
 				(font
@@ -2300,7 +2300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 129.2352 148.59 0)
 			(effects
 				(font
@@ -2567,7 +2567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 99.822 90)
 			(effects
 				(font
@@ -2771,7 +2771,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X170-9N"
+		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
 			(at 158.75 192.71 0)
 			(effects
 				(font
@@ -3134,7 +3134,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "AFBRS4N44P014M"
+		(property "Footprint" "S4N44P014M:AFBRS4N44P014M"
 			(at 195.25 64.77 0)
 			(effects
 				(font
@@ -3265,7 +3265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 115.2652 148.59 0)
 			(effects
 				(font
@@ -3847,7 +3847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98bff775-20b9-4608-b7b5-7e0e8969cb8c")
-		(property "Reference" "Rf"
+		(property "Reference" "Rf1"
 			(at 156.21 80.01 90)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 156.21 88.138 90)
 			(effects
 				(font
@@ -3899,7 +3899,7 @@
 		(instances
 			(project ""
 				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "Rf")
+					(reference "Rf1")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 98.7552 148.59 0)
 			(effects
 				(font
@@ -4266,7 +4266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.0552 148.59 0)
 			(effects
 				(font
@@ -4449,7 +4449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4ec8c05-bc55-4108-b7c9-f0584e9c23ed")
-		(property "Reference" "Cf"
+		(property "Reference" "Cf1"
 			(at 151.13 67.31 90)
 			(effects
 				(font
@@ -4465,7 +4465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 154.94 73.9648 0)
 			(effects
 				(font
@@ -4501,7 +4501,7 @@
 		(instances
 			(project "SiPm_Design_2"
 				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "Cf")
+					(reference "Cf1")
 					(unit 1)
 				)
 			)
@@ -4535,7 +4535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.222 115.57 90)
 			(effects
 				(font
@@ -4673,7 +4673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X170-9N"
+		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
 			(at 231.14 191.44 0)
 			(effects
 				(font
@@ -4972,7 +4972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-2012-12_Kemet-R_Pad1.30x1.05mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 97.4852 114.3 0)
 			(effects
 				(font
@@ -5172,7 +5172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X170-9N"
+		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.3x2.3mm"
 			(at 212.09 221.92 0)
 			(effects
 				(font

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA354AIDDAR
+D 250MHz, Rail-to-Rail I/O, CMOS Single Operational Amplifier
+K
+F http://www.ti.com/lit/gpn/OPA354
+$ENDCMP
+#
+#End Doc Library

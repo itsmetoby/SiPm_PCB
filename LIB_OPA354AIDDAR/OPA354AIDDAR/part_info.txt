@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA354AIDDAR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=9
+Version=1.1
+Released=2021-09-11 08:56:07
+Downloaded=2024-10-01 10:55:29
+3D=Y
