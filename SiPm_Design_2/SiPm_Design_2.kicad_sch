@@ -1600,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 101.6) (xy 196.85 101.6)
+			(xy 180.34 101.6) (xy 184.15 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1917,6 +1917,16 @@
 			(type default)
 		)
 		(uuid "b2c288d0-9da3-4601-9c52-7fed16e53e14")
+	)
+	(wire
+		(pts
+			(xy 191.77 101.6) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b902f235-d877-46c1-8723-c9c37176fae1")
 	)
 	(wire
 		(pts
@@ -5015,6 +5025,74 @@
 			(project "SiPm_Design_2"
 				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 187.96 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5f00c3f-145c-4a22-8e93-7ad3a0a9d3e6")
+		(property "Reference" "R6"
+			(at 187.96 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 187.96 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 187.96 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c93f3f-2bae-4833-8d75-9796720c4e2f")
+		)
+		(pin "2"
+			(uuid "11130d39-fab9-489e-96c4-81f33bb95379")
+		)
+		(instances
+			(project "SiPm_Design_2"
+				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
+					(reference "R6")
 					(unit 1)
 				)
 			)
