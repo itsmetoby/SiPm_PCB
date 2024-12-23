@@ -1513,6 +1513,12 @@
 		)
 	)
 	(junction
+		(at 91.44 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f11ca0-3324-4cf1-ba3e-078b04de04fa")
+	)
+	(junction
 		(at 167.64 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1537,6 +1543,12 @@
 		(uuid "37925e17-9ea3-4120-9a54-a926517e2237")
 	)
 	(junction
+		(at 116.84 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ee0603a-e9d7-4acd-a20f-adb053f42fd0")
+	)
+	(junction
 		(at 100.33 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1555,6 +1567,36 @@
 		(uuid "7f958e56-4b53-44af-bdd0-e1db6cfe396a")
 	)
 	(junction
+		(at 74.93 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88b191f7-b11e-44ee-a440-93c0c69cb761")
+	)
+	(junction
+		(at 111.76 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91c72206-5277-4ea8-8884-8f284f915bd0")
+	)
+	(junction
+		(at 91.44 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0204be7-77ab-42d2-91a3-ff3e8cf7389a")
+	)
+	(junction
+		(at 111.76 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae94348d-23c7-442a-ba2d-a41c9efce046")
+	)
+	(junction
+		(at 91.44 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5984e99-f86b-4c9f-9939-ed53efb2d46d")
+	)
+	(junction
 		(at 83.82 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1567,16 +1609,34 @@
 		(uuid "c2194b41-758f-4c21-a7d1-f8ad3cf2dab4")
 	)
 	(junction
+		(at 93.98 15.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c88e1885-e7b4-4a29-834b-b196abf3bdd3")
+	)
+	(junction
 		(at 93.98 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dda41543-a834-446c-a90d-d294d104c84d")
 	)
 	(junction
+		(at 96.52 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2e8ac44-fe30-4a25-8eb2-78600f6c8e04")
+	)
+	(junction
 		(at 96.52 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e62c812c-ef5c-4762-b787-3c1aa8160128")
+	)
+	(junction
+		(at 72.39 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e659d68a-a514-4a6d-818e-95bed282542b")
 	)
 	(wire
 		(pts
@@ -1587,6 +1647,16 @@
 			(type default)
 		)
 		(uuid "01b88274-7504-442e-86dd-ad4669034a81")
+	)
+	(wire
+		(pts
+			(xy 93.98 15.24) (xy 111.76 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e3704e-a17d-4e53-acf8-59b636ec230d")
 	)
 	(wire
 		(pts
@@ -1640,6 +1710,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 55.88) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16cdfc35-9379-4090-97fd-65a3e3ceb0e9")
+	)
+	(wire
+		(pts
 			(xy 167.64 101.6) (xy 167.64 134.62)
 		)
 		(stroke
@@ -1647,6 +1727,16 @@
 			(type default)
 		)
 		(uuid "1c79bfb6-7185-44d0-b11f-e0e2def86333")
+	)
+	(wire
+		(pts
+			(xy 74.93 15.24) (xy 91.44 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed43d6e-6939-4d28-9bd8-29e9375eaae9")
 	)
 	(wire
 		(pts
@@ -1660,6 +1750,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 55.88) (xy 91.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24f64b6c-ef36-4118-b12d-6d1c8af33881")
+	)
+	(wire
+		(pts
 			(xy 127 93.98) (xy 127 101.6)
 		)
 		(stroke
@@ -1667,6 +1767,16 @@
 			(type default)
 		)
 		(uuid "253a0bf0-15de-4590-8888-ac844f7e3570")
+	)
+	(wire
+		(pts
+			(xy 77.47 55.88) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2586f119-e8ba-4eab-b2d9-119d530a8e2e")
 	)
 	(wire
 		(pts
@@ -1710,6 +1820,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 15.24) (xy 93.98 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed5490b-9612-4446-94a1-0cfe84eaaa2f")
+	)
+	(wire
+		(pts
 			(xy 149.86 93.98) (xy 165.1 93.98)
 		)
 		(stroke
@@ -1740,6 +1860,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 59.69) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c57ce30-c35d-4d58-a308-450e226eb992")
+	)
+	(wire
+		(pts
 			(xy 127 134.62) (xy 130.81 134.62)
 		)
 		(stroke
@@ -1767,6 +1897,16 @@
 			(type default)
 		)
 		(uuid "566cd376-7b96-4553-b8c6-b1e1900f3908")
+	)
+	(wire
+		(pts
+			(xy 111.76 55.88) (xy 111.76 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5caea55e-418d-468b-8bc1-6619190ce15d")
 	)
 	(wire
 		(pts
@@ -1810,6 +1950,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 59.69) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d54d5bd-14f8-47e9-a3fd-1c70de79cef2")
+	)
+	(wire
+		(pts
 			(xy 100.33 101.6) (xy 102.87 101.6)
 		)
 		(stroke
@@ -1817,6 +1967,16 @@
 			(type default)
 		)
 		(uuid "6e1c1816-5236-48c3-b110-7dacdabff243")
+	)
+	(wire
+		(pts
+			(xy 111.76 15.24) (xy 114.3 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736c66da-0373-4a82-bca0-8d49f5b58f11")
 	)
 	(wire
 		(pts
@@ -1850,6 +2010,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 57.15) (xy 91.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b5164e2-397c-43ee-afca-4b33d4b5ee9b")
+	)
+	(wire
+		(pts
 			(xy 96.52 101.6) (xy 100.33 101.6)
 		)
 		(stroke
@@ -1857,6 +2027,16 @@
 			(type default)
 		)
 		(uuid "80c1b6e7-cfa5-4ee8-ad1a-8c673c1ee0c1")
+	)
+	(wire
+		(pts
+			(xy 91.44 57.15) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88451f7c-aced-4c16-a8f7-9ca81b106636")
 	)
 	(wire
 		(pts
@@ -1870,6 +2050,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 55.88) (xy 93.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6c98e3-85bf-4f98-a97f-3b7cfd90b7d7")
+	)
+	(wire
+		(pts
 			(xy 227.33 110.49) (xy 236.22 110.49)
 		)
 		(stroke
@@ -1877,6 +2067,16 @@
 			(type default)
 		)
 		(uuid "8bfed648-afba-4726-b565-b8df89087503")
+	)
+	(wire
+		(pts
+			(xy 116.84 59.69) (xy 116.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fac574f-567a-46eb-a85a-f8719ee7d823")
 	)
 	(wire
 		(pts
@@ -1900,6 +2100,26 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 55.88) (xy 72.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8c083c-bee1-4b0e-8fdb-6f732ea85390")
+	)
+	(wire
+		(pts
+			(xy 72.39 15.24) (xy 74.93 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffa0715-d437-4b74-bc86-6a29692f5d6b")
+	)
+	(wire
+		(pts
 			(xy 130.81 130.81) (xy 130.81 132.08)
 		)
 		(stroke
@@ -1907,6 +2127,16 @@
 			(type default)
 		)
 		(uuid "aa5cd512-631b-4696-b926-9ef011c519cd")
+	)
+	(wire
+		(pts
+			(xy 96.52 59.69) (xy 116.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b11981a3-9610-4a86-9695-b01bdaaac165")
 	)
 	(wire
 		(pts
@@ -1980,6 +2210,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 55.88) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e856e9e8-e238-4bc1-8fe7-19fcaa9b740f")
+	)
+	(wire
+		(pts
 			(xy 96.52 101.6) (xy 96.52 106.68)
 		)
 		(stroke
@@ -1987,6 +2227,16 @@
 			(type default)
 		)
 		(uuid "e9a73436-a372-428a-b488-e3de3c19740b")
+	)
+	(wire
+		(pts
+			(xy 96.52 55.88) (xy 96.52 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e08e8f-2b28-40d7-a57b-108125b6aea0")
 	)
 	(wire
 		(pts
@@ -1998,6 +2248,28 @@
 		)
 		(uuid "f8fd82f4-3fa2-477d-bb8a-ebee7f9f86d9")
 	)
+	(label "Bias"
+		(at 86.36 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e336058-8037-4493-bc79-98592722b53c")
+	)
+	(label "Bias"
+		(at 83.82 15.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48d1e406-79ce-4d05-ac88-a9a2fa9db4b8")
+	)
 	(label "Vout"
 		(at 167.64 111.76 0)
 		(fields_autoplaced yes)
@@ -2008,6 +2280,17 @@
 			(justify left bottom)
 		)
 		(uuid "527f7802-7718-44f9-bc7d-31007e2f6676")
+	)
+	(label "anode"
+		(at 120.65 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fe56f01-9307-4b25-a4e6-d2517d7d076f")
 	)
 	(label "IN_p"
 		(at 156.21 125.73 0)
@@ -2030,6 +2313,28 @@
 			(justify left bottom)
 		)
 		(uuid "9ee69c19-90ba-450e-964b-e3b510b94ceb")
+	)
+	(label "anode"
+		(at 107.95 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6827fad-d31e-4377-8663-88f593e7f8c1")
+	)
+	(label "Bias"
+		(at 82.55 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f475b1a0-f1df-4d33-84ac-f02b66a8b62b")
 	)
 	(symbol
 		(lib_id "OPA354AIDBVTG4:OPA354AIDBVTG4")
@@ -4697,6 +5002,136 @@
 		)
 	)
 	(symbol
+		(lib_id "AFBR-S4N44P014M:AFBR-S4N44P014M")
+		(at 111.76 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8b0e451-43dc-4748-80f9-ff88b2a7164f")
+		(property "Reference" "IC5"
+			(at 113.284 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AFBR-S4N44P014M"
+			(at 105.664 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "S4N44P014M:AFBRS4N44P014M"
+			(at 206.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
+			(at 306.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photodiode 420nm Single Element"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.23"
+			(at 506.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-AFBR-S4N44P014M"
+			(at 606.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D"
+			(at 706.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Avago Technologies"
+			(at 806.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AFBR-S4N44P014M"
+			(at 906.68 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "A3"
+			(uuid "d39f6610-ab6e-4316-9785-2f61330be5d8")
+		)
+		(pin "A1"
+			(uuid "0d92640f-a9b5-4aac-b4b2-062323eac1c2")
+		)
+		(pin "B2"
+			(uuid "7ffe7d83-c973-43f5-b1db-ecaaa5264fdf")
+		)
+		(pin "C1"
+			(uuid "ca0e3e8b-94aa-4b92-ad2e-e6b175c2c66e")
+		)
+		(pin "C3"
+			(uuid "513b0442-1c95-4eb3-b813-0bb29291200d")
+		)
+		(instances
+			(project "SiPm_Design_2"
+				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 236.22 113.03 270)
 		(unit 1)
@@ -4892,6 +5327,266 @@
 			(project ""
 				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AFBR-S4N44P014M:AFBR-S4N44P014M")
+		(at 72.39 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "def95b88-ce30-4dc3-a7ee-3457b71bd346")
+		(property "Reference" "IC2"
+			(at 72.39 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AFBR-S4N44P014M"
+			(at 65.278 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "S4N44P014M:AFBRS4N44P014M"
+			(at 167.31 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
+			(at 267.31 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photodiode 420nm Single Element"
+			(at 72.39 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.23"
+			(at 467.31 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-AFBR-S4N44P014M"
+			(at 567.31 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D"
+			(at 667.31 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Avago Technologies"
+			(at 767.31 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AFBR-S4N44P014M"
+			(at 867.31 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "A3"
+			(uuid "1528004d-6914-4e80-a704-a1c7180d8a2f")
+		)
+		(pin "A1"
+			(uuid "1fd19359-bc99-40e3-8d2d-ecc98a05d2b7")
+		)
+		(pin "B2"
+			(uuid "a143842b-428c-48ac-850d-d7590449d850")
+		)
+		(pin "C1"
+			(uuid "ba099a7d-f191-458d-8c2a-3e51a0449872")
+		)
+		(pin "C3"
+			(uuid "dd48ef71-a592-43e4-a017-1b96e7e296fc")
+		)
+		(instances
+			(project "SiPm_Design_2"
+				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AFBR-S4N44P014M:AFBR-S4N44P014M")
+		(at 91.44 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1f3aa63-9a2a-4e4e-b3df-e20217b1edd8")
+		(property "Reference" "IC3"
+			(at 92.964 34.036 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AFBR-S4N44P014M"
+			(at 85.344 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "S4N44P014M:AFBRS4N44P014M"
+			(at 186.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
+			(at 286.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photodiode 420nm Single Element"
+			(at 91.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.23"
+			(at 486.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "630-AFBR-S4N44P014M"
+			(at 586.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D"
+			(at 686.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Avago Technologies"
+			(at 786.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AFBR-S4N44P014M"
+			(at 886.36 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "A3"
+			(uuid "664fa0da-9593-48f5-b4e7-58bdcfc23f33")
+		)
+		(pin "A1"
+			(uuid "07dca2ee-fec7-484c-b8d3-6b9fe710e3b0")
+		)
+		(pin "B2"
+			(uuid "5e2ca7ff-b14a-4570-947a-3cfb11b0261f")
+		)
+		(pin "C1"
+			(uuid "3ed067b9-8f34-42fd-a0af-b95e69342037")
+		)
+		(pin "C3"
+			(uuid "f1ec1371-e298-493c-8cf6-32b2c2c232d6")
+		)
+		(instances
+			(project "SiPm_Design_2"
+				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
+					(reference "IC3")
 					(unit 1)
 				)
 			)
