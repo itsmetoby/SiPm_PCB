@@ -5591,7 +5591,7 @@
 		(descr "Through hole straight pin header, 1x09, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x09 1.00mm single row")
 		(property "Reference" "V_Bias1"
-			(at 0 -2 270)
+			(at 0 -2 -90)
 			(layer "F.SilkS")
 			(uuid "383b8581-5947-49ab-be5b-93af0b053421")
 			(effects
@@ -10850,6 +10850,66 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "8dfcef4c-c2ef-40e1-8f3d-8fe90c192618")
+	)
+	(gr_text "Solder all of the pins"
+		(at 75 87.5 0)
+		(layer "B.SilkS")
+		(uuid "15d50f76-7e25-4aae-85e5-e9b3b1543e95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "Solder all of the pins"
+		(at 75 61.75 0)
+		(layer "B.SilkS")
+		(uuid "65e627fb-71de-45d1-b993-42190034b532")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "UST Phys SiPM adaptor board\n2024 03 26\nEltis"
+		(at 67.5 94.25 0)
+		(layer "B.SilkS")
+		(uuid "b252c6c0-a26f-47ce-8915-a8579502cd6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Solder all of the pins"
+		(at 75 47.25 0)
+		(layer "B.SilkS")
+		(uuid "d950b9fc-1c26-4e0e-a816-a32cf87db288")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
+	(gr_text "Solder all of the pins"
+		(at 75 74.5 0)
+		(layer "B.SilkS")
+		(uuid "f3efef2a-4be4-44b1-8aaf-3266f0ad3b5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
 	)
 	(gr_text "Orientation"
 		(at 84 55.75 90)
