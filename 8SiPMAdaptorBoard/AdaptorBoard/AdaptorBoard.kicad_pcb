@@ -2782,7 +2782,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6dc39285-6c2a-4767-8ce7-18ad1edd4254")
-		(at 109 71 90)
+		(at 71 76 90)
 		(descr "Through hole straight pin header, 1x09, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x09 1.00mm single row")
 		(property "Reference" "GND1"
@@ -5587,11 +5587,11 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a5a0a322-4e59-470e-bc55-bc5265be1b0f")
-		(at 109 83 90)
+		(at 71 89.25 90)
 		(descr "Through hole straight pin header, 1x09, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x09 1.00mm single row")
-		(property "Reference" "SiPM_Bias1"
-			(at 0 -2 -90)
+		(property "Reference" "V_Bias1"
+			(at 0 -2 270)
 			(layer "F.SilkS")
 			(uuid "383b8581-5947-49ab-be5b-93af0b053421")
 			(effects
@@ -6725,7 +6725,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b348bbe0-6f5a-4235-8204-5dd5d30ba4d7")
-		(at 109 47 90)
+		(at 71 49 90)
 		(descr "Through hole straight pin header, 1x09, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x09 1.00mm single row")
 		(property "Reference" "+2V5"
@@ -8932,7 +8932,7 @@
 	(footprint "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ce7d8f58-714b-42db-94cc-b6ea0aa808d4")
-		(at 109 59 90)
+		(at 71 63.25 90)
 		(descr "Through hole straight pin header, 1x09, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x09 1.00mm single row")
 		(property "Reference" "-2V5"
@@ -10842,7 +10842,7 @@
 	)
 	(gr_rect
 		(start 44 32)
-		(end 130 95)
+		(end 102.75 95)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -10851,9 +10851,33 @@
 		(layer "Edge.Cuts")
 		(uuid "8dfcef4c-c2ef-40e1-8f3d-8fe90c192618")
 	)
+	(gr_text "Orientation"
+		(at 84 55.75 90)
+		(layer "F.SilkS")
+		(uuid "0b0a0225-c97a-486c-9125-1304f80eae04")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Orientation"
+		(at 84 82.25 90)
+		(layer "F.SilkS")
+		(uuid "2d2b1588-280a-45f5-8b82-aad7d764315e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "GND\n-2V5\n+2V5\nV_Bias"
 		(at 75 83 0)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "3368f600-f5c7-4af3-9476-34dbcef64fee")
 		(effects
 			(font
@@ -10865,7 +10889,7 @@
 	)
 	(gr_text "GND\n-2V5\n+2V5\nV_Bias"
 		(at 75 57 0)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "34602355-68c8-490e-9748-9ab12c5f5ead")
 		(effects
 			(font
@@ -10875,9 +10899,21 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Orientation"
+		(at 84 42.25 90)
+		(layer "F.SilkS")
+		(uuid "49531442-4de7-4f45-8cbb-9245927e1eea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "GND\n-2V5\n+2V5\nV_Bias"
 		(at 71 83 0)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "4999543c-2d7d-4fb3-acf4-d3bd3fd23aab")
 		(effects
 			(font
@@ -10887,9 +10923,21 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Orientation"
+		(at 66 42.25 90)
+		(layer "F.SilkS")
+		(uuid "8431ccfa-cd6c-4ef3-b737-4cc9f8835920")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "GND\n-2V5\n+2V5\nV_Bias"
 		(at 71 43 0)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "9403cd6a-0ffe-41cd-a1e3-8370e34cf846")
 		(effects
 			(font
@@ -10899,9 +10947,33 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Orientation"
+		(at 66.25 55.75 90)
+		(layer "F.SilkS")
+		(uuid "95fc2909-8fb8-4433-beb8-8cbedc7af3a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Orientation"
+		(at 66.25 69.25 90)
+		(layer "F.SilkS")
+		(uuid "98e89b11-7453-42b4-9f55-d4e5df821a82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "GND\n-2V5\n+2V5\nV_Bias"
 		(at 71 70 0)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "9dc117db-34f9-43cb-83cf-db32b5f70c2c")
 		(effects
 			(font
@@ -10913,7 +10985,7 @@
 	)
 	(gr_text "GND\n-2V5\n+2V5\nV_Bias"
 		(at 75 70 0)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "af0c7cba-dfa6-42f3-990d-fbcfc672b601")
 		(effects
 			(font
@@ -10923,9 +10995,33 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Orientation"
+		(at 66.25 82.25 90)
+		(layer "F.SilkS")
+		(uuid "d3fc519c-ac16-4710-9684-e083bd08b955")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "Orientation"
+		(at 84 69.25 90)
+		(layer "F.SilkS")
+		(uuid "d60873db-d5a2-4f18-beae-dd49a792e56c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify bottom)
+		)
+	)
 	(gr_text "GND\n-2V5\n+2V5\nV_Bias"
 		(at 71 57 0)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "e67fb875-ac21-4d95-a445-15b1f8d7360b")
 		(effects
 			(font
@@ -10937,7 +11033,7 @@
 	)
 	(gr_text "GND\n-2V5\n+2V5\nV_Bias"
 		(at 75 43 0)
-		(layer "Edge.Cuts")
+		(layer "F.SilkS")
 		(uuid "f9a8eae4-3107-4fdb-ab0f-4ab6a54bf52b")
 		(effects
 			(font
