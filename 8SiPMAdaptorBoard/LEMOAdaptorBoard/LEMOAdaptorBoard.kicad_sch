@@ -1,0 +1,8336 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "90a29a6b-0930-4b18-ad75-feedfe88ac78")
+	(paper "A4")
+	(title_block
+		(title "PCB_SiPMAdaptorToBNC")
+		(date "2025-03-26")
+		(rev "1")
+		(company "HKUST")
+	)
+	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x09"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x09"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x09_1_1"
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 11.43)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEMO_Horizontal2:FPL.00.250.NTD"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "FPL.00.250.NTD"
+				(at -7.62 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "FPL.00.250.NTD:FPL.00.250.NTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "LEMO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            NIM-CAMAC CD/N 549 Connector Plug, Male Pin 50 Ohms Through Hole, Right Angle Solder\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "FPL.00.250.NTD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "FPL.00.250.NTD_0_0"
+				(arc
+					(start -2.54 2.54)
+					(mid -2.2706 1.4015)
+					(end -1.524 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.524 0.508)
+					(mid -0.806 0.1313)
+					(end 0 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -10.16) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid -1.7961 4.3361)
+					(end -2.54 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SHIELD1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SHIELD2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SHIELD3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SHIELD4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ZF5S-10-03-T-WT_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -8.12 13.816 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "FFC_Connector_Vertical"
+				(at -7.62 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ZF5S-10-03-T-WT_1_0_0"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "ZF5S-10-03-T-WT_1_1_0"
+				(pin passive line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "Earth"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "Signal"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "Earth"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "Signal"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "Earth"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "Earth"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "-2V5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "+2V5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "V_Bias"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "Earth"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 76.2 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "023fe827-b849-49fc-8935-9a5e3cf958cd")
+	)
+	(junction
+		(at 116.84 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c4d12f5-4212-4d58-a0f2-b49d5cd4e8ae")
+	)
+	(junction
+		(at 71.12 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0de9fa82-5b63-418d-a802-2a62f5d4d4b5")
+	)
+	(junction
+		(at 76.2 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e42fcfa-eae2-4460-b8df-2e29ce010a8a")
+	)
+	(junction
+		(at 82.55 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "143a18d0-01de-46f7-a7d9-e3135c599f8a")
+	)
+	(junction
+		(at 76.2 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1607284e-991d-47fb-a438-95517c05b138")
+	)
+	(junction
+		(at 128.27 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16b9bb83-b799-4f23-9175-175487af6f7d")
+	)
+	(junction
+		(at 82.55 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16d9de1a-dbb6-46c6-9a33-2752d31ba85a")
+	)
+	(junction
+		(at 82.55 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17526a73-e85d-440d-b707-6e14df91f29c")
+	)
+	(junction
+		(at 123.19 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2070745e-68ca-475f-8f08-ace3b2033fbd")
+	)
+	(junction
+		(at 135.89 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ebaf6e0-2b43-48d1-901c-0157a010dc8d")
+	)
+	(junction
+		(at 128.27 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "330c3fdf-27b6-4d9a-8252-afc874760001")
+	)
+	(junction
+		(at 82.55 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34150795-8b30-4a84-8a9a-23c79ed17e43")
+	)
+	(junction
+		(at 63.5 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "360b798e-ba9a-41a6-b4f7-ab97d99a7145")
+	)
+	(junction
+		(at 76.2 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36b03288-99a3-46ba-be83-cb2c995ecd82")
+	)
+	(junction
+		(at 116.84 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "462ec585-f082-44e5-8523-7649c78376fe")
+	)
+	(junction
+		(at 76.2 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5016177c-add5-4796-8c6c-b5ddb99641bb")
+	)
+	(junction
+		(at 82.55 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54eb5761-589a-48c7-a118-24d7d701e36d")
+	)
+	(junction
+		(at 63.5 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "660d0001-92aa-4276-9342-ade0b50f4e43")
+	)
+	(junction
+		(at 135.89 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6812dae3-f9f6-471b-9335-905f3362f6f7")
+	)
+	(junction
+		(at 135.89 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68abd56c-96d7-4d8d-bb06-1bd8cf42d24a")
+	)
+	(junction
+		(at 116.84 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68d97a4c-e782-4652-b28d-1018af6de96e")
+	)
+	(junction
+		(at 71.12 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "697fe4f8-beca-49f0-b2b0-ba90d497f502")
+	)
+	(junction
+		(at 123.19 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72080f88-c821-45e7-bbc0-14af09135ef8")
+	)
+	(junction
+		(at 82.55 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73f056bb-1b29-44c2-9de1-3e3f922b0445")
+	)
+	(junction
+		(at 135.89 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d13b47d-2088-47fa-90f3-01e3bcace7d5")
+	)
+	(junction
+		(at 116.84 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe17dd4-0cd0-42cf-ae6c-bd61575a0da9")
+	)
+	(junction
+		(at 123.19 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "901a2c86-61c9-4884-8fd0-0a1755eee517")
+	)
+	(junction
+		(at 123.19 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "972dbce3-e78b-4ed4-ba20-c75520a33fce")
+	)
+	(junction
+		(at 123.19 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f5affb8-68ce-49d7-be8f-44d3c9292769")
+	)
+	(junction
+		(at 82.55 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6198144-12d7-4532-bf5e-afc52e7e7342")
+	)
+	(junction
+		(at 123.19 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a673f42a-9ccc-4b41-910d-a5924cc6eb38")
+	)
+	(junction
+		(at 123.19 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7c236be-bb85-4d82-a595-414bf9d46aa2")
+	)
+	(junction
+		(at 128.27 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acd71982-52a0-4284-ba79-71df3c93b558")
+	)
+	(junction
+		(at 128.27 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc058572-7917-4dda-ab6d-b9d927af2c40")
+	)
+	(junction
+		(at 71.12 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdb94ec5-503c-4064-88ad-f700b57ab6a8")
+	)
+	(junction
+		(at 71.12 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa26f50-5634-4221-830b-65ba49c0e7d7")
+	)
+	(junction
+		(at 116.84 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5794652-7171-4938-aefb-e34f0a1a3d39")
+	)
+	(junction
+		(at 76.2 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf262876-e129-4801-b400-7bf1c7adc858")
+	)
+	(junction
+		(at 116.84 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ac1ee0-a3ce-465b-979c-dff5ff84648f")
+	)
+	(junction
+		(at 63.5 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dade100e-97e1-417c-ae2a-3f6e623f0cb4")
+	)
+	(junction
+		(at 82.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed65a137-90ea-489e-9e80-5b6c27d450dc")
+	)
+	(junction
+		(at 63.5 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efa30d37-87c2-4f33-a323-89b52b79f6da")
+	)
+	(junction
+		(at 123.19 13.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f16745b1-f7f2-456e-99a7-678bbc8d0e6f")
+	)
+	(junction
+		(at 76.2 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5550905-2dd2-43ff-adce-37936e8e8c55")
+	)
+	(junction
+		(at 76.2 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb420a30-481b-47e2-a234-bf2ac5aec335")
+	)
+	(junction
+		(at 116.84 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcac73c4-5bdc-4bff-95cd-21d79b350996")
+	)
+	(junction
+		(at 116.84 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fddb2860-017d-44c0-9e1c-0185eb99f73e")
+	)
+	(wire
+		(pts
+			(xy 68.58 147.32) (xy 68.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b5f991-7985-4964-b5c6-d0134b6ab8ab")
+	)
+	(wire
+		(pts
+			(xy 162.56 21.59) (xy 162.56 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01eb1c1d-0910-4776-a3b0-ae80c6dc2d2d")
+	)
+	(wire
+		(pts
+			(xy 128.27 67.31) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a36b99-6fa7-4d62-a8c5-f884ec9ebd40")
+	)
+	(wire
+		(pts
+			(xy 163.83 99.06) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05747f1b-40ff-42c5-b313-4b87a5b9bcc6")
+	)
+	(wire
+		(pts
+			(xy 163.83 99.06) (xy 163.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058b716d-c61c-4dfa-9331-4d88b15b0c97")
+	)
+	(wire
+		(pts
+			(xy 76.2 132.08) (xy 82.55 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07171c56-d47e-424d-9add-a4cc86cadb57")
+	)
+	(wire
+		(pts
+			(xy 19.05 78.74) (xy 19.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cd291a-6391-4d9e-af8b-9222abed1ccb")
+	)
+	(wire
+		(pts
+			(xy 135.89 77.47) (xy 135.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082b6e69-77d4-4c5f-aa78-971c785daafd")
+	)
+	(wire
+		(pts
+			(xy 128.27 67.31) (xy 140.97 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0884384c-f6c4-4a4f-8c3d-86a531f9e1d2")
+	)
+	(wire
+		(pts
+			(xy 66.04 111.76) (xy 86.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c65ad4-8f2b-435b-8941-21b922b4ee22")
+	)
+	(wire
+		(pts
+			(xy 133.35 77.47) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098580b6-fa78-4ce2-9e77-ebdd8a29d047")
+	)
+	(wire
+		(pts
+			(xy 68.58 27.94) (xy 85.09 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098f67dc-057a-469b-9367-550ff7cbcb39")
+	)
+	(wire
+		(pts
+			(xy 15.24 177.8) (xy 71.12 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09adddf2-9fa8-4126-b9fd-7ad6efd5a90a")
+	)
+	(wire
+		(pts
+			(xy 82.55 91.44) (xy 82.55 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a53d3b9-ed54-4c22-a8ce-e304a36ed9dd")
+	)
+	(wire
+		(pts
+			(xy 58.42 119.38) (xy 82.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6e1cb5-430e-44d3-bf16-4d04434d3314")
+	)
+	(wire
+		(pts
+			(xy 58.42 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb81f53-45b4-4547-abd8-821f1e9c2894")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 128.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bec3d28-3e04-4934-a0a7-90e2eb86d52e")
+	)
+	(wire
+		(pts
+			(xy 17.78 175.26) (xy 73.66 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1242d3-9af7-4d8e-a9bf-f41b25753d5a")
+	)
+	(wire
+		(pts
+			(xy 116.84 152.4) (xy 116.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c700160-f88f-46ae-89fe-1659205afdbb")
+	)
+	(wire
+		(pts
+			(xy 125.73 20.32) (xy 125.73 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de73552-77a9-448d-9db1-6f573714da4d")
+	)
+	(wire
+		(pts
+			(xy 58.42 43.18) (xy 68.58 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e0ccc64-a832-46b4-a83c-176a59718bce")
+	)
+	(wire
+		(pts
+			(xy 66.04 149.86) (xy 66.04 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0ab852-deb1-4ee8-9454-31af24d4328d")
+	)
+	(wire
+		(pts
+			(xy 35.56 50.8) (xy 35.56 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fead090-8875-48f3-bf76-05e3b72a209f")
+	)
+	(wire
+		(pts
+			(xy 58.42 35.56) (xy 71.12 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101a1291-ab69-44c2-b633-da8a75cdb2fb")
+	)
+	(wire
+		(pts
+			(xy 58.42 106.68) (xy 68.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109c6aec-5722-4a5c-8bb0-25b332195364")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12890808-6d56-428f-9d91-549fb8583e03")
+	)
+	(wire
+		(pts
+			(xy 166.37 148.59) (xy 168.91 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130dbf17-a0b6-403d-bae9-a15c63e09fb3")
+	)
+	(wire
+		(pts
+			(xy 58.42 68.58) (xy 66.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1371b7cb-fced-41ec-ac53-78287d8f92c8")
+	)
+	(wire
+		(pts
+			(xy 128.27 29.21) (xy 128.27 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137a510c-3904-441e-afc8-bd9706f80a86")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 68.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ac3172-9f2c-432b-8488-13827e3e23b8")
+	)
+	(wire
+		(pts
+			(xy 166.37 54.61) (xy 166.37 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b31f2c-48b2-4dda-bf65-57104a246192")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 86.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f943c4-9d22-4344-8cc8-dbf11e244386")
+	)
+	(wire
+		(pts
+			(xy 66.04 27.94) (xy 66.04 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1845b663-ffe0-447d-b570-9aa256b45a95")
+	)
+	(wire
+		(pts
+			(xy 116.84 116.84) (xy 113.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f5011c-a4ce-4b64-87d1-a8e9acaf23e4")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 163.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1916e251-098f-4a09-957c-df35aabb46c8")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 82.55 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1923c1c0-9f64-445b-9ca1-066109fa216a")
+	)
+	(wire
+		(pts
+			(xy 68.58 128.27) (xy 76.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e701ef-3239-4c4c-8a60-84a961a38c7c")
+	)
+	(wire
+		(pts
+			(xy 58.42 124.46) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a15be59-a7ce-440d-b652-78ecaf1f9615")
+	)
+	(wire
+		(pts
+			(xy 68.58 66.04) (xy 68.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a480ff7-aa7a-42ed-a95d-cc33b790e6a9")
+	)
+	(wire
+		(pts
+			(xy 130.81 102.87) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b454dbe-189c-44bd-81cc-97907e4d41a3")
+	)
+	(wire
+		(pts
+			(xy 71.12 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6db841-7811-4a6d-b84a-4c2aa56a8b2c")
+	)
+	(wire
+		(pts
+			(xy 140.97 127) (xy 128.27 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c71f978-9f4d-4d07-8d9e-4ea6f2a746f0")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cc20583-feb3-41fe-a557-b4d02f4a7f31")
+	)
+	(wire
+		(pts
+			(xy 16.51 73.66) (xy 21.59 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d583e56-95a0-4d16-be90-d8fad7359e4a")
+	)
+	(wire
+		(pts
+			(xy 58.42 55.88) (xy 35.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3f7251-9709-415b-806f-040e60f6223c")
+	)
+	(wire
+		(pts
+			(xy 82.55 38.1) (xy 82.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef68de0-64c9-4d8a-a4ae-da66d11c6ec2")
+	)
+	(wire
+		(pts
+			(xy 63.5 111.76) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efaced1-ad90-4322-9cc6-8ee16f4fa74c")
+	)
+	(wire
+		(pts
+			(xy 71.12 40.64) (xy 71.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2075f44d-8255-407e-a2dd-050b52829c68")
+	)
+	(wire
+		(pts
+			(xy 68.58 43.18) (xy 68.58 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2089cc0c-1376-4cb8-b5cf-5f65cfbd2c64")
+	)
+	(wire
+		(pts
+			(xy 58.42 30.48) (xy 63.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210e378b-e884-48e4-a7b3-f0b9e595ba09")
+	)
+	(wire
+		(pts
+			(xy 71.12 106.68) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b7eb2f-b4ee-45e3-a38e-2d75e1206aeb")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 68.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "238f6910-70f8-4537-a7e4-93301ccf9c39")
+	)
+	(wire
+		(pts
+			(xy 16.51 116.84) (xy 20.32 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ca2373-e219-4fe7-9ba6-883fd9c873cf")
+	)
+	(wire
+		(pts
+			(xy 130.81 17.78) (xy 123.19 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e0e586-1323-44e6-9de6-a171ddbdc857")
+	)
+	(wire
+		(pts
+			(xy 116.84 99.06) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2627cea5-d78f-4a1d-8577-4c433bb0e546")
+	)
+	(wire
+		(pts
+			(xy 58.42 114.3) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28d97044-aa0b-448f-95d1-57b92802a8a3")
+	)
+	(wire
+		(pts
+			(xy 66.04 30.48) (xy 85.09 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296b8d90-18d4-4dc8-9b30-95e932986e7a")
+	)
+	(wire
+		(pts
+			(xy 140.97 34.29) (xy 135.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29784e80-a5b5-4b04-9fa1-9d977d1425db")
+	)
+	(wire
+		(pts
+			(xy 135.89 31.75) (xy 116.84 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba3ae04-6ca9-49ac-b8a3-4a17bc935811")
+	)
+	(wire
+		(pts
+			(xy 130.81 60.96) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c8d728b-99b7-433a-ba61-54bb851bdb60")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 128.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca99474-17be-4e41-a1e8-30afdb5d82fe")
+	)
+	(wire
+		(pts
+			(xy 140.97 124.46) (xy 130.81 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc56eb4-212e-443f-8ef8-57dbda49d8f9")
+	)
+	(wire
+		(pts
+			(xy 82.55 114.3) (xy 86.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0c8b89-8b16-4709-9d56-db7a0716b346")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 58.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32554796-8c52-4ec0-9098-cafcff54a22d")
+	)
+	(wire
+		(pts
+			(xy 128.27 82.55) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342fc4a9-1e5c-4e47-9310-89e5bf8c9bcd")
+	)
+	(wire
+		(pts
+			(xy 128.27 39.37) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358e6a8a-b88f-4776-a223-a5546be4b089")
+	)
+	(wire
+		(pts
+			(xy 76.2 46.99) (xy 76.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b476c6-ccb7-4374-ab13-01ad1722474e")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3624f4bc-db66-4635-a66d-1069858a0214")
+	)
+	(wire
+		(pts
+			(xy 133.35 162.56) (xy 133.35 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e61a7f-9bdb-4ce0-95e2-ee5b9811622e")
+	)
+	(wire
+		(pts
+			(xy 71.12 22.86) (xy 71.12 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379ae092-d548-4b32-a41c-8c2324b26eb4")
+	)
+	(wire
+		(pts
+			(xy 68.58 168.91) (xy 76.2 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "382a3656-2e24-4e9b-ae50-ea48f96cf8a9")
+	)
+	(wire
+		(pts
+			(xy 71.12 116.84) (xy 71.12 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38817142-12c5-4bc4-a29e-36662e52f19c")
+	)
+	(wire
+		(pts
+			(xy 71.12 121.92) (xy 58.42 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dd771d-d2ad-4b32-90bb-ebebd15568dd")
+	)
+	(wire
+		(pts
+			(xy 76.2 172.72) (xy 76.2 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3975f4af-4a90-433a-a32a-5a4e1e65689a")
+	)
+	(wire
+		(pts
+			(xy 15.24 134.62) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a980003-ce41-49ba-b39b-e0a4a2135d5c")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 168.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d27eba8-be1c-491b-af3e-3f72487a71bc")
+	)
+	(wire
+		(pts
+			(xy 63.5 30.48) (xy 63.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d468f40-8558-4ff8-8adc-3b587db685b9")
+	)
+	(wire
+		(pts
+			(xy 58.42 137.16) (xy 35.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d53759d-db55-48ab-949b-378e4579b39c")
+	)
+	(wire
+		(pts
+			(xy 21.59 78.74) (xy 19.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e63f52e-c945-4797-b9a8-74faad763a06")
+	)
+	(wire
+		(pts
+			(xy 135.89 34.29) (xy 135.89 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd704bc-5519-4901-82da-49e1065f8bd1")
+	)
+	(wire
+		(pts
+			(xy 16.51 93.98) (xy 16.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ea95bc-dcf1-4da5-a1ab-cd157f46bc27")
+	)
+	(wire
+		(pts
+			(xy 73.66 121.92) (xy 73.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4169794c-61ef-4a1e-8e5b-0947caad88be")
+	)
+	(wire
+		(pts
+			(xy 130.81 121.92) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c3ec3e-d0b0-4a00-9d16-247e5ffeca7f")
+	)
+	(wire
+		(pts
+			(xy 82.55 154.94) (xy 86.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fbfa75-880e-49c6-86e0-5a4d3cccfc42")
+	)
+	(wire
+		(pts
+			(xy 116.84 31.75) (xy 113.03 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451286a2-155c-4eb7-846f-4493d69f703f")
+	)
+	(wire
+		(pts
+			(xy 140.97 160.02) (xy 135.89 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "468bd3a5-c506-4c37-b834-093b750064d0")
+	)
+	(wire
+		(pts
+			(xy 128.27 148.59) (xy 128.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b40d5e-cdc1-4306-84d4-dda591ca1b30")
+	)
+	(wire
+		(pts
+			(xy 76.2 168.91) (xy 76.2 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47526541-a6df-428e-a3eb-36f266a619f2")
+	)
+	(wire
+		(pts
+			(xy 20.32 52.07) (xy 20.32 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b38e08-5605-498c-ac49-5aaa0a25655a")
+	)
+	(wire
+		(pts
+			(xy 58.42 101.6) (xy 58.42 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4898749f-ed1a-4b0e-ae72-61ff9cba315d")
+	)
+	(wire
+		(pts
+			(xy 133.35 121.92) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48de4b8a-4a13-489b-85d2-b791f0fa82bb")
+	)
+	(wire
+		(pts
+			(xy 17.78 160.02) (xy 17.78 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e04702-0ac7-4758-b563-fd8f2a08514b")
+	)
+	(wire
+		(pts
+			(xy 58.42 111.76) (xy 63.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1fe7aa-9b19-4fdd-ab43-d59317518670")
+	)
+	(wire
+		(pts
+			(xy 76.2 121.92) (xy 73.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a2c83bf-1f41-4c04-843a-16a552a951bd")
+	)
+	(wire
+		(pts
+			(xy 130.81 21.59) (xy 130.81 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b067944-37a1-4f1d-8c03-c5408583eae6")
+	)
+	(wire
+		(pts
+			(xy 71.12 25.4) (xy 85.09 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b7dea3c-f361-432a-b0f9-d9fe0acb887f")
+	)
+	(wire
+		(pts
+			(xy 71.12 104.14) (xy 71.12 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcda392-f2a4-4acb-8d44-a7a1cd8e580e")
+	)
+	(wire
+		(pts
+			(xy 140.97 21.59) (xy 130.81 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5272dda3-173e-46cb-9e4d-23b0da2b9e16")
+	)
+	(wire
+		(pts
+			(xy 58.42 33.02) (xy 63.5 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52858fcc-f4c6-4f22-93c1-7b9e883f6d7d")
+	)
+	(wire
+		(pts
+			(xy 130.81 39.37) (xy 130.81 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53bfe7e7-7015-4b24-841d-705c48c27c59")
+	)
+	(wire
+		(pts
+			(xy 68.58 149.86) (xy 86.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e8f3b9-aba8-4475-a3c9-258ead3aba68")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548291d9-77df-47d8-aaa0-c97eaa563eee")
+	)
+	(wire
+		(pts
+			(xy 35.56 172.72) (xy 76.2 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55621958-3ce6-4fe1-ba65-6ec804dd5372")
+	)
+	(wire
+		(pts
+			(xy 68.58 25.4) (xy 68.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560089d4-317e-47dc-ac3e-09866b4e7c77")
+	)
+	(wire
+		(pts
+			(xy 66.04 68.58) (xy 66.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56712f4a-2f71-4b3b-9ca7-531b6fcec7b5")
+	)
+	(wire
+		(pts
+			(xy 76.2 128.27) (xy 76.2 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "574e773c-336b-4544-8bfb-83e251f25f4d")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 76.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586adf86-23bb-4c0c-a785-486aa47bba0c")
+	)
+	(wire
+		(pts
+			(xy 133.35 160.02) (xy 113.03 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58b5ba5b-f6ff-491f-b736-8d4fc3d2e9a9")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 116.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5921441f-424c-46ce-826f-ab3bca479342")
+	)
+	(wire
+		(pts
+			(xy 130.81 82.55) (xy 130.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5938bbd3-3b7c-4ad1-858b-d9c42f5c84d1")
+	)
+	(wire
+		(pts
+			(xy 166.37 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595ed591-e3f3-41fb-b448-bc6ecdc998a6")
+	)
+	(wire
+		(pts
+			(xy 128.27 127) (xy 128.27 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c0c3de-1a09-4816-9ac2-ee58a1fe0387")
+	)
+	(wire
+		(pts
+			(xy 58.42 116.84) (xy 71.12 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a0006f9-aa1c-41ab-9351-95aa7c686dd2")
+	)
+	(wire
+		(pts
+			(xy 140.97 44.45) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a107b51-0197-40ad-b29b-c102f238fbdd")
+	)
+	(wire
+		(pts
+			(xy 63.5 114.3) (xy 82.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5acaad13-c768-4703-8fb1-af2d4b1e02cc")
+	)
+	(wire
+		(pts
+			(xy 130.81 162.56) (xy 113.03 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae7b756-638d-4289-86d2-ce2276914fc1")
+	)
+	(wire
+		(pts
+			(xy 58.42 154.94) (xy 63.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9a7ff0-98a6-4c46-838f-6e9dd1bbfd5c")
+	)
+	(wire
+		(pts
+			(xy 76.2 132.08) (xy 76.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2e1727-2d65-4aee-8f57-e1603914ff47")
+	)
+	(wire
+		(pts
+			(xy 133.35 36.83) (xy 133.35 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c31f93c-3210-43e4-a5d8-aa841248f0b2")
+	)
+	(wire
+		(pts
+			(xy 35.56 50.8) (xy 76.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d185d1e-9324-40b1-9d0f-1db282c0ae2e")
+	)
+	(wire
+		(pts
+			(xy 58.42 109.22) (xy 66.04 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2869be-194b-4fd4-ad6d-6fedb8113f7d")
+	)
+	(wire
+		(pts
+			(xy 123.19 24.13) (xy 125.73 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8d9996-6ec1-411c-9fcb-ec672a2722bc")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.15) (xy 116.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6116ba69-3230-472f-ab52-59c530d88b71")
+	)
+	(wire
+		(pts
+			(xy 140.97 134.62) (xy 163.83 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f8cd28-cb26-4da8-bd24-b6e6689c97c2")
+	)
+	(wire
+		(pts
+			(xy 66.04 109.22) (xy 66.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629d47f0-2969-477f-87e0-1db4f6c4330e")
+	)
+	(wire
+		(pts
+			(xy 22.86 36.83) (xy 17.78 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62debe30-eb12-473b-99ff-fe7b9c9b965c")
+	)
+	(wire
+		(pts
+			(xy 71.12 93.98) (xy 16.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d11550-bcc7-4507-8b8f-2e1a5875f3ce")
+	)
+	(wire
+		(pts
+			(xy 140.97 170.18) (xy 140.97 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63e7b2f3-97c1-42ae-8fc0-85ec9208159a")
+	)
+	(wire
+		(pts
+			(xy 140.97 121.92) (xy 133.35 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fe8e6d-9dfc-4427-bf41-6d0d14123861")
+	)
+	(wire
+		(pts
+			(xy 140.97 72.39) (xy 128.27 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d28e14-56f4-4e69-bb7f-ce45d277222f")
+	)
+	(wire
+		(pts
+			(xy 82.55 119.38) (xy 82.55 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d1667d-e414-41ea-9f27-f5dc24505309")
+	)
+	(wire
+		(pts
+			(xy 58.42 160.02) (xy 82.55 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "671a3a6a-e44c-4340-aa2a-52c4fdd2b1f1")
+	)
+	(wire
+		(pts
+			(xy 132.08 20.32) (xy 125.73 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68512ad5-e983-47f6-8397-ae69e2293d5b")
+	)
+	(wire
+		(pts
+			(xy 123.19 17.78) (xy 123.19 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69315ec6-3716-4b10-925a-56d9676e6ac0")
+	)
+	(wire
+		(pts
+			(xy 140.97 111.76) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2a3f69-a97c-492f-ae5b-6eeec5283814")
+	)
+	(wire
+		(pts
+			(xy 15.24 111.76) (xy 15.24 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b085bd5-d8d0-41a8-8953-9e5c5c3fd682")
+	)
+	(wire
+		(pts
+			(xy 58.42 152.4) (xy 63.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c43a02d-b0a0-47a9-a872-4b940cc7b643")
+	)
+	(wire
+		(pts
+			(xy 82.55 73.66) (xy 86.36 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de92d71-a5a1-4f05-ae72-154a83df3968")
+	)
+	(wire
+		(pts
+			(xy 123.19 13.97) (xy 116.84 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec233c0-0538-4ec4-8911-b59a323d7f3e")
+	)
+	(wire
+		(pts
+			(xy 140.97 74.93) (xy 135.89 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f80b305-d4b6-4b01-9932-3af12fe366ab")
+	)
+	(wire
+		(pts
+			(xy 135.89 143.51) (xy 135.89 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723c680c-80f0-4e84-a532-072c0d46060f")
+	)
+	(wire
+		(pts
+			(xy 17.78 53.34) (xy 71.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "727ebd66-7d9f-4e4c-9e64-0d7db72b727d")
+	)
+	(wire
+		(pts
+			(xy 58.42 22.86) (xy 71.12 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72860375-36a9-4bfb-a634-b31565855a1d")
+	)
+	(wire
+		(pts
+			(xy 17.78 36.83) (xy 17.78 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728d4050-47a0-406f-941f-28870926c4c1")
+	)
+	(wire
+		(pts
+			(xy 128.27 41.91) (xy 128.27 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7292c1ad-9e9e-4fd4-88a7-6f8635418412")
+	)
+	(wire
+		(pts
+			(xy 140.97 64.77) (xy 130.81 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73988dc1-bc40-4db2-ad5e-d8abf6de9b66")
+	)
+	(wire
+		(pts
+			(xy 73.66 130.81) (xy 16.51 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d0f972-65ad-42bf-9f94-c17c99a6ca51")
+	)
+	(wire
+		(pts
+			(xy 163.83 139.7) (xy 163.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750de637-3801-4cf9-a976-42d82395eb46")
+	)
+	(wire
+		(pts
+			(xy 140.97 175.26) (xy 163.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f99826-3366-46d5-8a3a-329047fadf93")
+	)
+	(wire
+		(pts
+			(xy 35.56 91.44) (xy 76.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7636edfc-fbe8-4a3f-b31a-8299ba6c610c")
+	)
+	(wire
+		(pts
+			(xy 58.42 157.48) (xy 71.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767b1177-8d06-419c-aeb0-2b3d0555206d")
+	)
+	(wire
+		(pts
+			(xy 116.84 69.85) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76921b9a-f7d7-405f-8906-4719498d5d58")
+	)
+	(wire
+		(pts
+			(xy 140.97 162.56) (xy 133.35 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781666e3-ce17-4ad4-920e-b3bfcfbb53ae")
+	)
+	(wire
+		(pts
+			(xy 35.56 132.08) (xy 35.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae0189f-c36f-4d9f-be87-0ccedbd8bc15")
+	)
+	(wire
+		(pts
+			(xy 140.97 31.75) (xy 135.89 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b82dc7f-970d-41c3-a79b-598a18449a6c")
+	)
+	(wire
+		(pts
+			(xy 128.27 24.13) (xy 128.27 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c37450f-d65d-40c8-9f39-8d6bb70dbdd5")
+	)
+	(wire
+		(pts
+			(xy 116.84 139.7) (xy 116.84 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3fcf00-5c58-4b29-a327-102612b02eee")
+	)
+	(wire
+		(pts
+			(xy 128.27 72.39) (xy 128.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d65b711-a1a3-4bd8-8242-46ed0a7a3501")
+	)
+	(wire
+		(pts
+			(xy 123.19 60.96) (xy 123.19 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e128b47-4419-4bec-b5f5-59f6d39e052f")
+	)
+	(wire
+		(pts
+			(xy 135.89 160.02) (xy 135.89 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3e41f9-ad25-4295-b390-1fb62354cdf1")
+	)
+	(wire
+		(pts
+			(xy 15.24 154.94) (xy 15.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3f541a-dbf4-4c4e-8627-621a04f08691")
+	)
+	(wire
+		(pts
+			(xy 71.12 177.8) (xy 71.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bb2f96-d431-4a5e-9ffe-87c959231c54")
+	)
+	(wire
+		(pts
+			(xy 71.12 35.56) (xy 71.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82c755cf-b8a9-49e4-8d02-111dc5750dc6")
+	)
+	(wire
+		(pts
+			(xy 58.42 20.32) (xy 58.42 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85031585-3603-41df-be32-8a7827ecc037")
+	)
+	(wire
+		(pts
+			(xy 66.04 152.4) (xy 86.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85cace69-9a9a-45fe-9a7d-09b1f2f9990f")
+	)
+	(wire
+		(pts
+			(xy 76.2 172.72) (xy 82.55 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fda139-93ed-4291-a61c-e088c4a0a094")
+	)
+	(wire
+		(pts
+			(xy 140.97 147.32) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871e1b28-cac1-4fd9-b9f4-eeb51c541846")
+	)
+	(wire
+		(pts
+			(xy 58.42 104.14) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8738bb97-ae5c-4f45-9988-38ba63a90a14")
+	)
+	(wire
+		(pts
+			(xy 68.58 46.99) (xy 76.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88452686-4a0c-4d51-8a4b-b01d4279e3ba")
+	)
+	(wire
+		(pts
+			(xy 135.89 119.38) (xy 135.89 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c3a53a-106d-466e-ba90-75ce33bb9d74")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8fab91-4b27-4b69-a896-782adf0b36d2")
+	)
+	(wire
+		(pts
+			(xy 82.55 132.08) (xy 82.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a94be1c-4a30-4dc5-8276-568dc10785e5")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 76.2 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8abced7f-5140-43df-8f62-a0a6fe1cefff")
+	)
+	(wire
+		(pts
+			(xy 68.58 87.63) (xy 76.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1a0259-6839-4dd9-8adf-732695b99fe6")
+	)
+	(wire
+		(pts
+			(xy 130.81 64.77) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7c53af-6c50-4d45-a7d4-0d25f5d0620f")
+	)
+	(wire
+		(pts
+			(xy 71.12 157.48) (xy 71.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d79e054-d3ee-4ddb-850c-7fb56a58f8c3")
+	)
+	(wire
+		(pts
+			(xy 163.83 13.97) (xy 123.19 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbbfcfd-bf94-41c3-832e-5f8637a65848")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa4b4f9-cc61-429d-834d-3a4c9188a26c")
+	)
+	(wire
+		(pts
+			(xy 76.2 162.56) (xy 73.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff5b417-90b1-49f7-ab31-5760eb216be0")
+	)
+	(wire
+		(pts
+			(xy 71.12 144.78) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914464e1-8625-4aac-a4f0-e97f8362ca6f")
+	)
+	(wire
+		(pts
+			(xy 82.55 33.02) (xy 85.09 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9149e7bc-38f4-4591-96cd-6280595cb4b8")
+	)
+	(wire
+		(pts
+			(xy 116.84 26.67) (xy 116.84 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "952458d5-06be-4c67-b973-13a86e899f81")
+	)
+	(wire
+		(pts
+			(xy 140.97 106.68) (xy 130.81 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9597ee13-ab11-49d4-8c79-f2b0231ee588")
+	)
+	(wire
+		(pts
+			(xy 166.37 58.42) (xy 125.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962f4279-0ca2-4aaa-bead-41b77fbdfe01")
+	)
+	(wire
+		(pts
+			(xy 20.32 41.91) (xy 22.86 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96384d7d-05ed-4227-bff3-cef222704309")
+	)
+	(wire
+		(pts
+			(xy 140.97 114.3) (xy 128.27 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "976094fa-65f8-4cea-ba9b-17fd37ea6d33")
+	)
+	(wire
+		(pts
+			(xy 135.89 157.48) (xy 116.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97be4cc9-2ce5-45bd-843e-0d009b28382d")
+	)
+	(wire
+		(pts
+			(xy 168.91 101.6) (xy 168.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cb5bbb-ca58-4a2b-ab4c-7f216814b5fd")
+	)
+	(wire
+		(pts
+			(xy 140.97 36.83) (xy 133.35 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "984c6a75-d3b7-46ff-87a5-34f737aef87b")
+	)
+	(wire
+		(pts
+			(xy 140.97 69.85) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985a2403-9c91-4877-959e-8c68b96f2a8f")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.15) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9874f020-c220-4001-ab17-84fd9f34cd5e")
+	)
+	(wire
+		(pts
+			(xy 71.12 76.2) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9907fb3c-22e0-4df4-8f97-ef01158d577d")
+	)
+	(wire
+		(pts
+			(xy 63.5 152.4) (xy 63.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c216bf-a9d6-44a8-9f0c-05491b742cec")
+	)
+	(wire
+		(pts
+			(xy 82.55 50.8) (xy 82.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6a59b7-b543-4ed0-a666-64a207c58e07")
+	)
+	(wire
+		(pts
+			(xy 116.84 13.97) (xy 116.84 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8b134b-48f9-4690-a1f5-d76b2bff6668")
+	)
+	(wire
+		(pts
+			(xy 63.5 33.02) (xy 82.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c91dcde-3238-4f50-9691-c76d8fc0e3af")
+	)
+	(wire
+		(pts
+			(xy 140.97 157.48) (xy 135.89 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cadfe56-4a46-41bb-8bd1-9cc82ff4f673")
+	)
+	(wire
+		(pts
+			(xy 130.81 106.68) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2c5c2e-8534-4715-b013-9842bd79fb86")
+	)
+	(wire
+		(pts
+			(xy 58.42 147.32) (xy 68.58 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4d15f4-9918-484c-bc5b-1dafee1fc7a2")
+	)
+	(wire
+		(pts
+			(xy 58.42 142.24) (xy 58.42 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7e729c-c207-4ea6-84fc-09b5f3714d4c")
+	)
+	(wire
+		(pts
+			(xy 123.19 139.7) (xy 116.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a021ef94-c9cf-4b7f-9c12-a10dce54506b")
+	)
+	(wire
+		(pts
+			(xy 140.97 29.21) (xy 128.27 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12644f6-09f9-47bd-92e4-f5069b501084")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a194a7ae-e619-48e4-ac77-5854362b8538")
+	)
+	(wire
+		(pts
+			(xy 68.58 165.1) (xy 68.58 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f2a160-999e-47d6-8792-1b8bd00fc49a")
+	)
+	(wire
+		(pts
+			(xy 140.97 82.55) (xy 130.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20592c5-7234-4dae-b9e7-cee5741e5dc5")
+	)
+	(wire
+		(pts
+			(xy 19.05 88.9) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27076ef-8f6a-435a-9d9a-7596867cd47d")
+	)
+	(wire
+		(pts
+			(xy 68.58 106.68) (xy 68.58 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33e2c4d-ae79-412c-9113-128479e5b5d9")
+	)
+	(wire
+		(pts
+			(xy 128.27 24.13) (xy 140.97 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7095256-77ea-40bc-bf7a-1c495fd5f5ce")
+	)
+	(wire
+		(pts
+			(xy 140.97 49.53) (xy 163.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7934fdd-68bf-40ed-a006-7217387940f9")
+	)
+	(wire
+		(pts
+			(xy 123.19 13.97) (xy 123.19 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9191777-ff88-42ef-b4ed-77aed64dc900")
+	)
+	(wire
+		(pts
+			(xy 123.19 139.7) (xy 123.19 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a952407d-4feb-4ead-a754-d62cba9c8a33")
+	)
+	(wire
+		(pts
+			(xy 63.5 73.66) (xy 82.55 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab771286-6c51-46a6-b83b-0e7d7228aab9")
+	)
+	(wire
+		(pts
+			(xy 163.83 139.7) (xy 123.19 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba65f50-fbcb-4680-9c54-498a8042a922")
+	)
+	(wire
+		(pts
+			(xy 35.56 172.72) (xy 35.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac73fc56-66ea-4653-a0ab-963ecb8e011b")
+	)
+	(wire
+		(pts
+			(xy 133.35 119.38) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8ed164-29a7-4ee8-bdf4-f57efdbc11ef")
+	)
+	(wire
+		(pts
+			(xy 128.27 149.86) (xy 140.97 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2d2599-dda9-4288-b8d3-29b0db23636a")
+	)
+	(wire
+		(pts
+			(xy 128.27 154.94) (xy 128.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4fc8ba-c866-46b5-bc86-2a98b77d0fed")
+	)
+	(wire
+		(pts
+			(xy 130.81 124.46) (xy 130.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae51aeea-6e93-4d50-baa9-e011e08f8af3")
+	)
+	(wire
+		(pts
+			(xy 163.83 13.97) (xy 163.83 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5d0fb1-ad02-43f6-96d4-704e8c825019")
+	)
+	(wire
+		(pts
+			(xy 133.35 34.29) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afdf586d-7176-4241-8f50-781c0fd27329")
+	)
+	(wire
+		(pts
+			(xy 82.55 172.72) (xy 82.55 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afea10db-83b2-4763-afd8-2f76c37ac02d")
+	)
+	(wire
+		(pts
+			(xy 58.42 144.78) (xy 71.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b187e60f-4223-4774-9cc2-c89b05b165dc")
+	)
+	(wire
+		(pts
+			(xy 26.67 49.53) (xy 26.67 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b231dd35-e5f1-42bf-870c-f0df9fe2cb1a")
+	)
+	(wire
+		(pts
+			(xy 71.12 162.56) (xy 58.42 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a4f90b-8766-475d-8737-29496a90b18d")
+	)
+	(wire
+		(pts
+			(xy 140.97 119.38) (xy 135.89 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b425969b-78c2-4546-b745-4d5a5053bcc8")
+	)
+	(wire
+		(pts
+			(xy 140.97 165.1) (xy 130.81 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b504c1f9-196b-44fa-adba-2bfc6ff893ab")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 71.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a20807-0ed9-4d6e-9adb-411dff0acc9d")
+	)
+	(wire
+		(pts
+			(xy 26.67 52.07) (xy 20.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6126282-17c7-4a3f-8b4e-160ad3a1397b")
+	)
+	(wire
+		(pts
+			(xy 63.5 154.94) (xy 82.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e03bb0-f650-49f5-aced-7b18b640da03")
+	)
+	(wire
+		(pts
+			(xy 71.12 147.32) (xy 86.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b786ba35-76e9-47d9-9e9c-2552ab514edc")
+	)
+	(wire
+		(pts
+			(xy 140.97 26.67) (xy 116.84 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d38ec0-5d0f-4440-a72e-ec2ad5fd8c5a")
+	)
+	(wire
+		(pts
+			(xy 58.42 27.94) (xy 66.04 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b908df20-5a9c-48e2-9d5a-7c2a4e128d34")
+	)
+	(wire
+		(pts
+			(xy 130.81 143.51) (xy 123.19 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97b867a-66a5-4d7d-a447-531e6ab85824")
+	)
+	(wire
+		(pts
+			(xy 135.89 148.59) (xy 128.27 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf742ea-1eaf-47e8-b6e0-e88a67cec4f8")
+	)
+	(wire
+		(pts
+			(xy 140.97 154.94) (xy 128.27 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5f210c-5573-4a54-9468-4da47de8cb62")
+	)
+	(wire
+		(pts
+			(xy 82.55 78.74) (xy 82.55 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfbcdb4b-5c65-48d4-8446-1292bef512ce")
+	)
+	(wire
+		(pts
+			(xy 130.81 80.01) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00a85cd-9feb-44fe-889b-03bf9c0a3019")
+	)
+	(wire
+		(pts
+			(xy 168.91 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02eab27-f902-444a-ab60-fdf9e1dcd39c")
+	)
+	(wire
+		(pts
+			(xy 68.58 109.22) (xy 86.36 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05b7bd0-0d9b-421f-8304-ff64623d0b11")
+	)
+	(wire
+		(pts
+			(xy 140.97 77.47) (xy 135.89 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c085aa41-e504-4bea-9185-04a6294f7055")
+	)
+	(wire
+		(pts
+			(xy 130.81 147.32) (xy 130.81 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c258e75c-5aa8-407f-8eb6-44265d34b5d8")
+	)
+	(wire
+		(pts
+			(xy 116.84 57.15) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37d70ad-77d6-4eb6-8e3b-f9ddafaa204e")
+	)
+	(wire
+		(pts
+			(xy 130.81 36.83) (xy 113.03 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43a7968-465d-4bd9-83b7-5b886cad5507")
+	)
+	(wire
+		(pts
+			(xy 123.19 149.86) (xy 125.73 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4485d3f-bc61-4c31-a750-28cd1dbf3e25")
+	)
+	(wire
+		(pts
+			(xy 20.32 111.76) (xy 15.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c605aa65-59be-4733-823a-5876113e7efd")
+	)
+	(wire
+		(pts
+			(xy 58.42 149.86) (xy 66.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c695203e-5e11-49b7-859a-128f740f0add")
+	)
+	(wire
+		(pts
+			(xy 123.19 143.51) (xy 123.19 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d09df8-5990-4c66-84ea-950212428430")
+	)
+	(wire
+		(pts
+			(xy 132.08 17.78) (xy 132.08 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d7839e-6308-4b2d-8923-32859b65a35d")
+	)
+	(wire
+		(pts
+			(xy 128.27 16.51) (xy 170.18 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c857a536-bad2-481c-9329-ebcd348df066")
+	)
+	(wire
+		(pts
+			(xy 58.42 25.4) (xy 68.58 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9505ac5-f6c0-4875-9b59-abeb71e17310")
+	)
+	(wire
+		(pts
+			(xy 71.12 121.92) (xy 71.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb721254-4af6-42d2-ada9-20cf73659cc1")
+	)
+	(wire
+		(pts
+			(xy 58.42 71.12) (xy 63.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc394732-887f-42cf-9911-99357366b37f")
+	)
+	(wire
+		(pts
+			(xy 123.19 102.87) (xy 123.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde2f3bf-784d-4ee7-a065-592e5bdeccb2")
+	)
+	(wire
+		(pts
+			(xy 71.12 40.64) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef482c8-463b-4652-8a11-fe08e52c3582")
+	)
+	(wire
+		(pts
+			(xy 63.5 71.12) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3e02b9-2351-419c-8735-71b032041313")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 82.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7c4f05-d201-4aad-a057-510cca89fdaf")
+	)
+	(wire
+		(pts
+			(xy 21.59 154.94) (xy 15.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d183a813-6aba-4cf0-8676-208ae97ace70")
+	)
+	(wire
+		(pts
+			(xy 140.97 167.64) (xy 128.27 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d387e17f-f153-4036-a9e0-e71c4a3fea4a")
+	)
+	(wire
+		(pts
+			(xy 140.97 129.54) (xy 140.97 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41bbbef-e46e-4627-a4c3-52a4cc326c73")
+	)
+	(wire
+		(pts
+			(xy 140.97 80.01) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4c118fa-ff7a-49e4-8db6-57f37201dfa1")
+	)
+	(wire
+		(pts
+			(xy 58.42 66.04) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4df9b2d-4555-4132-aab0-bfa4a66f6d37")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 128.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59cce1a-963d-407e-a596-5060fe6ee0bc")
+	)
+	(wire
+		(pts
+			(xy 140.97 152.4) (xy 116.84 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60cdf08-67b4-4f8f-8856-e0b252da92b8")
+	)
+	(wire
+		(pts
+			(xy 16.51 130.81) (xy 16.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7057ca3-bbe0-46d0-9df1-7ba9458cfb58")
+	)
+	(wire
+		(pts
+			(xy 76.2 81.28) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fa5f89-31d0-458b-a053-76fb567c192e")
+	)
+	(wire
+		(pts
+			(xy 125.73 140.97) (xy 166.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d830bb73-17cb-4fa0-8a2d-94ee649a6d2c")
+	)
+	(wire
+		(pts
+			(xy 58.42 15.24) (xy 35.56 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e1a920-7e9a-41b5-9a33-757717b754dc")
+	)
+	(wire
+		(pts
+			(xy 58.42 165.1) (xy 68.58 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d927600b-8216-44d3-bc21-8742acce803f")
+	)
+	(wire
+		(pts
+			(xy 128.27 167.64) (xy 128.27 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e70464-bec6-4d89-b2c4-1994e4f75af3")
+	)
+	(wire
+		(pts
+			(xy 135.89 74.93) (xy 116.84 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc08b3e-647f-4389-9467-09728b80fd44")
+	)
+	(wire
+		(pts
+			(xy 116.84 157.48) (xy 113.03 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0cc2a5-621a-4156-af08-798eb8891ae8")
+	)
+	(wire
+		(pts
+			(xy 58.42 76.2) (xy 71.12 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddabadfa-10af-4a0e-aaa6-6e60a615554c")
+	)
+	(wire
+		(pts
+			(xy 76.2 87.63) (xy 76.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de8e5973-157a-4990-bc3c-d1d0274f8463")
+	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 128.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb5dc3a-5d34-4bac-9251-d67e794cd256")
+	)
+	(wire
+		(pts
+			(xy 73.66 49.53) (xy 26.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45fdbbb-636e-4041-bf44-59f9cb4795af")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 116.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4996feb-c6f1-4453-8b12-7c9ed58d3fbe")
+	)
+	(wire
+		(pts
+			(xy 130.81 165.1) (xy 130.81 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50612f9-ee74-4a08-9831-7a9362274156")
+	)
+	(wire
+		(pts
+			(xy 140.97 116.84) (xy 135.89 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e586428f-579c-4f4f-982e-2a1ff8d1462e")
+	)
+	(wire
+		(pts
+			(xy 128.27 109.22) (xy 140.97 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e608b7c3-98e7-41d3-891a-df3aa887a654")
+	)
+	(wire
+		(pts
+			(xy 58.42 96.52) (xy 35.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e625cdca-4f2d-4c4f-8143-819dab8d1d0b")
+	)
+	(wire
+		(pts
+			(xy 58.42 38.1) (xy 82.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e72965bf-937b-4e98-81dd-854b965fc270")
+	)
+	(wire
+		(pts
+			(xy 133.35 80.01) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7799551-2a1b-4788-a783-c6afd485a4df")
+	)
+	(wire
+		(pts
+			(xy 21.59 160.02) (xy 17.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ece02b-4a74-4018-9ee7-b13b902277dd")
+	)
+	(wire
+		(pts
+			(xy 125.73 109.22) (xy 125.73 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8c5f1e-1e32-4254-95cd-df0bf07c412b")
+	)
+	(wire
+		(pts
+			(xy 168.91 143.51) (xy 135.89 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead26552-f8e1-4e5e-8b25-337c03596fb6")
+	)
+	(wire
+		(pts
+			(xy 76.2 91.44) (xy 82.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead3e811-a228-446d-bbf7-5cbf3f01e173")
+	)
+	(wire
+		(pts
+			(xy 68.58 68.58) (xy 86.36 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3a4a29-8672-4374-8bba-6b7f67bffe1c")
+	)
+	(wire
+		(pts
+			(xy 140.97 92.71) (xy 163.83 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5675bc-a7f4-445b-9869-640902fb4d6b")
+	)
+	(wire
+		(pts
+			(xy 123.19 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed79effe-0e9d-439b-a0ea-7c4713a54eba")
+	)
+	(wire
+		(pts
+			(xy 125.73 149.86) (xy 125.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee8a4e61-5e25-4488-90ca-8f8cd9d957e6")
+	)
+	(wire
+		(pts
+			(xy 116.84 74.93) (xy 113.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb4f634-9aae-4455-8f02-f1f991d57888")
+	)
+	(wire
+		(pts
+			(xy 58.42 73.66) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f031e9f0-894a-42bd-952d-04a8959ad189")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 68.58 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1fcc925-02b1-4205-9cb1-2b6ec282ad73")
+	)
+	(wire
+		(pts
+			(xy 58.42 60.96) (xy 58.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e034c3-59fa-4a83-a6a2-5403a7b3e771")
+	)
+	(wire
+		(pts
+			(xy 128.27 124.46) (xy 113.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3030896-687e-4687-985a-4bf4b041d3af")
+	)
+	(wire
+		(pts
+			(xy 73.66 40.64) (xy 73.66 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f5e706-fba4-424b-b34a-3563cef73822")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f545bb2b-8a40-4cb9-911d-64a65d7ead92")
+	)
+	(wire
+		(pts
+			(xy 140.97 39.37) (xy 130.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f54f2a6e-41c8-4e11-a0ef-c98d1272bea5")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 125.73 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a22da7-883f-4862-85e7-69993248aeb0")
+	)
+	(wire
+		(pts
+			(xy 162.56 17.78) (xy 132.08 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f841118e-f6f5-41c6-884c-0e66a9c829f3")
+	)
+	(wire
+		(pts
+			(xy 73.66 175.26) (xy 73.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e27424-587d-41de-955f-340e085abd3a")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 71.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ee2d42-dd8b-492b-9cd2-6e330adc84d8")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 73.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6b9e79-4986-47db-ba85-4c7051e1a8ec")
+	)
+	(wire
+		(pts
+			(xy 170.18 21.59) (xy 162.56 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0e546b-b1ef-4ef0-ab8c-f8a8cbcee270")
+	)
+	(wire
+		(pts
+			(xy 128.27 165.1) (xy 113.03 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2ef1f9-f2a6-4daa-8847-daaadc5e6a79")
+	)
+	(wire
+		(pts
+			(xy 135.89 116.84) (xy 116.84 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4741f8-4bac-4074-b396-8fb3091d0d66")
+	)
+	(wire
+		(pts
+			(xy 35.56 91.44) (xy 35.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb04d15-9fb9-4f8f-9ea6-9b3a70045844")
+	)
+	(wire
+		(pts
+			(xy 82.55 160.02) (xy 82.55 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5f639e-4299-4ea1-a1b1-f0961fdec41b")
+	)
+	(wire
+		(pts
+			(xy 35.56 132.08) (xy 76.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb89b6d-d143-461a-960c-8e9fc044da05")
+	)
+	(wire
+		(pts
+			(xy 166.37 140.97) (xy 166.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe5ab54-1835-4193-9fd1-c6428e27ccc5")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 91.44 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0096d388-b3e1-472d-874a-0686e7d309c4")
+		(property "Reference" "PIN2"
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 91.44 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "212abaa2-66ec-49e4-9015-e64171cc2a9a")
+		)
+		(pin "4"
+			(uuid "a79e53e5-ced3-4f8d-a015-ef3d5bfc7597")
+		)
+		(pin "3"
+			(uuid "70bddb01-f706-42d7-a873-ba67e804f9e0")
+		)
+		(pin "1"
+			(uuid "c55eaf71-b595-46b9-8f18-5213186ec711")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "PIN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ZF5S-10-03-T-WT_1")
+		(lib_id "FFCZF5S-10-03-T-WT:ZF5S-10-03-T-WT")
+		(at 153.67 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "144279d0-3a9a-4fdd-ad9c-19c2eefcf14c")
+		(property "Reference" "FFC6"
+			(at 162.56 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FFC_Connector_Vertical"
+			(at 162.56 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "3bf6f4ba-d86c-4575-82f2-eb95707f09e5")
+		)
+		(pin "02"
+			(uuid "1f19b2a5-0a96-450e-bcd2-3c0b5f6392b7")
+		)
+		(pin "05"
+			(uuid "07b22257-c1c1-480b-ae9a-83406c9f8032")
+		)
+		(pin "07"
+			(uuid "9fa7842b-67a5-4d42-a80a-5e4b3af8250c")
+		)
+		(pin "08"
+			(uuid "cd6b83a9-9589-4820-8fe3-ef2ad43844e4")
+		)
+		(pin "06"
+			(uuid "0a0d0f96-f92e-4a39-8204-2f175ca55669")
+		)
+		(pin "01"
+			(uuid "4f95e7bf-a076-4838-96f2-1d7e1cc24b3d")
+		)
+		(pin "04"
+			(uuid "d299cc28-f94e-494d-9116-4b9fd88e8ec0")
+		)
+		(pin "03"
+			(uuid "3b273af3-f9b3-4bac-8b2a-b45bd38e6367")
+		)
+		(pin "09"
+			(uuid "88e67f78-20bf-41b6-ac61-ba7eafef433f")
+		)
+		(instances
+			(project "LEMOAdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "FFC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ZF5S-10-03-T-WT_1")
+		(lib_id "FFCZF5S-10-03-T-WT:ZF5S-10-03-T-WT")
+		(at 45.72 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c838806-6692-4ee7-b5af-acf2d722a53d")
+		(property "Reference" "FFC3"
+			(at 45.72 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FFC_Connector_Vertical"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 45.72 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "6753843c-f227-41b7-b645-3e0fc5f72b1b")
+		)
+		(pin "02"
+			(uuid "e77f3657-15a4-4776-b3e3-e3594b48f48e")
+		)
+		(pin "05"
+			(uuid "d4115b0b-f5ba-4904-9b7a-17b79c2c2b4d")
+		)
+		(pin "07"
+			(uuid "a1827caa-efa3-4d45-bdf3-aac1b498b99d")
+		)
+		(pin "08"
+			(uuid "03da7896-a3a2-445c-b993-71e44beab84f")
+		)
+		(pin "06"
+			(uuid "6ede93f7-e932-45c2-96ec-f3766c62419c")
+		)
+		(pin "01"
+			(uuid "dd452491-8c54-475b-8bd7-5407bedeab21")
+		)
+		(pin "04"
+			(uuid "09a365fe-3280-4afe-abf6-f5891b601d1c")
+		)
+		(pin "03"
+			(uuid "8f178a3f-7f72-4fcb-b5ea-f1f66208f878")
+		)
+		(pin "09"
+			(uuid "11e99f92-fe7a-4d93-a1e1-b324963335d2")
+		)
+		(instances
+			(project "LEMOAdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "FFC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ZF5S-10-03-T-WT_1")
+		(lib_id "FFCZF5S-10-03-T-WT:ZF5S-10-03-T-WT")
+		(at 45.72 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a5be5d-77c8-493d-a50b-a6ca309ed80d")
+		(property "Reference" "FFC1"
+			(at 45.72 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FFC_Connector_Vertical"
+			(at 45.72 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description_1" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "91422539-da14-4e73-8643-f7e4464b7fd2")
+		)
+		(pin "02"
+			(uuid "cf79dbb6-67f7-42ee-aebc-b8417ef0e7a1")
+		)
+		(pin "05"
+			(uuid "d58a89c6-c38b-46ca-bf0a-8f1afb161384")
+		)
+		(pin "07"
+			(uuid "4593d579-d359-4e27-b8ba-59874326f8e0")
+		)
+		(pin "08"
+			(uuid "8989ae41-bb0c-4eb0-bbf4-fcedccf4f5c4")
+		)
+		(pin "06"
+			(uuid "3fe6875e-debe-4693-9767-7e71738383f7")
+		)
+		(pin "01"
+			(uuid "8ab83514-0b3a-45bf-8c15-d44767c523fc")
+		)
+		(pin "04"
+			(uuid "10284078-74ba-4151-9550-bf51acc83d5e")
+		)
+		(pin "03"
+			(uuid "3f0d7eed-7429-479f-89a0-a649ad6a2340")
+		)
+		(pin "09"
+			(uuid "6a69881c-ddbe-450e-a821-31ab760946ad")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "FFC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 91.44 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a400630-88e7-4769-bd91-a99c6afe2238")
+		(property "Reference" "PIN4"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 91.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "37470bba-a725-4f7e-ba06-e47563e00243")
+		)
+		(pin "4"
+			(uuid "08ccb7a8-49f0-41a3-8478-b1db966adf7f")
+		)
+		(pin "3"
+			(uuid "9726e3c3-909f-4b2d-9e99-531a12ec0042")
+		)
+		(pin "1"
+			(uuid "1b00da1e-a473-40ca-a8a0-1333600733ed")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "PIN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEMO_Horizontal2:FPL.00.250.NTD")
+		(at 25.4 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a7f5f8e-9e28-42e0-af73-0c5055357a31")
+		(property "Reference" "LEMO3"
+			(at 26.67 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPL.00.250.NTD"
+			(at 26.67 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEMO_Horizontal2:FPL.00.250.NTD"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LEMO"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            NIM-CAMAC CD/N 549 Connector Plug, Male Pin 50 Ohms Through Hole, Right Angle Solder\n                        \n"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=snap"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "FPL.00.250.NTD"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=eda"
+			(at 25.4 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5010a65a-018a-46fd-b8d7-79be5700defe")
+		)
+		(pin "SHIELD4"
+			(uuid "01053539-dd99-49d1-882e-01eda5d95231")
+		)
+		(pin "SHIELD1"
+			(uuid "750d4d53-64d6-4378-8741-f90da9289c2c")
+		)
+		(pin "SHIELD2"
+			(uuid "f229d623-5997-419c-a976-dd6821c83868")
+		)
+		(pin "SHIELD3"
+			(uuid "fb041faa-0b91-4f2d-8de6-d74ba39f8bce")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "LEMO3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEMO_Horizontal2:FPL.00.250.NTD")
+		(at 173.99 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f4883aa-587a-4809-9aba-c9004beff7ec")
+		(property "Reference" "LEMO5"
+			(at 175.26 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPL.00.250.NTD"
+			(at 175.26 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEMO_Horizontal2:FPL.00.250.NTD"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LEMO"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            NIM-CAMAC CD/N 549 Connector Plug, Male Pin 50 Ohms Through Hole, Right Angle Solder\n                        \n"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=snap"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "FPL.00.250.NTD"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=eda"
+			(at 173.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5010a65a-018a-46fd-b8d7-79be5700deff")
+		)
+		(pin "SHIELD4"
+			(uuid "01053539-dd99-49d1-882e-01eda5d95232")
+		)
+		(pin "SHIELD1"
+			(uuid "750d4d53-64d6-4378-8741-f90da9289c2d")
+		)
+		(pin "SHIELD2"
+			(uuid "f229d623-5997-419c-a976-dd6821c83869")
+		)
+		(pin "SHIELD3"
+			(uuid "fb041faa-0b91-4f2d-8de6-d74ba39f8bcf")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "LEMO5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x09")
+		(at 213.36 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45f60a85-c55b-4403-9e3c-1122d9395d52")
+		(property "Reference" "GND1"
+			(at 213.36 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x09"
+			(at 213.36 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66e691e6-9531-470a-a213-61b490395875")
+		)
+		(pin "2"
+			(uuid "38367128-7339-4c1f-9511-c2988cdf460b")
+		)
+		(pin "6"
+			(uuid "416c2490-8379-4bb1-a537-020d2fe510f2")
+		)
+		(pin "3"
+			(uuid "9ed1a83d-23f1-4cc9-9f50-775afe7643a5")
+		)
+		(pin "5"
+			(uuid "b69e8c67-b5e7-49c7-bc8d-74786e75acd3")
+		)
+		(pin "8"
+			(uuid "ef71cd3c-bf34-4542-9948-f87e80fe0580")
+		)
+		(pin "9"
+			(uuid "e3c49f1a-8892-4449-8c64-0d41737d80ad")
+		)
+		(pin "7"
+			(uuid "cbdfa69b-df04-4490-9839-018747b5fdb4")
+		)
+		(pin "4"
+			(uuid "07299787-3ee3-4f51-a226-b107b71b76c2")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ZF5S-10-03-T-WT_1")
+		(lib_id "FFCZF5S-10-03-T-WT:ZF5S-10-03-T-WT")
+		(at 153.67 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d977dc9-2c0e-4f10-8d1a-0b471f89bd2e")
+		(property "Reference" "FFC7"
+			(at 162.56 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FFC_Connector_Vertical"
+			(at 162.56 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 153.67 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "19d57177-8e45-47fe-a6a5-25f0204fab7b")
+		)
+		(pin "02"
+			(uuid "a7836a81-7126-4c8c-8cf9-0c306de808dd")
+		)
+		(pin "05"
+			(uuid "cda1bc07-40e1-45a8-8e2c-e8d6fc321ff8")
+		)
+		(pin "07"
+			(uuid "663d105a-fde1-4b54-8e79-d3b74b7cc60e")
+		)
+		(pin "08"
+			(uuid "eac108cd-8bd6-4098-aaab-1ae10fa381a3")
+		)
+		(pin "06"
+			(uuid "b5736a98-8333-4a69-8553-e9141ba47673")
+		)
+		(pin "01"
+			(uuid "9997fae3-8c8b-4cf8-b806-a14dc945e3cf")
+		)
+		(pin "04"
+			(uuid "558ffa09-31ec-42dc-9836-30ef1a12ed21")
+		)
+		(pin "03"
+			(uuid "3606413a-b4e7-4ac5-aa30-85a7c066f055")
+		)
+		(pin "09"
+			(uuid "7c090c35-9f3e-4842-8815-22f8a7ea1c94")
+		)
+		(instances
+			(project "LEMOAdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "FFC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEMO_Horizontal2:FPL.00.250.NTD")
+		(at 26.67 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65a6e719-851d-4153-9d85-fc7e73024956")
+		(property "Reference" "LEMO4"
+			(at 27.94 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPL.00.250.NTD"
+			(at 27.94 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEMO_Horizontal2:FPL.00.250.NTD"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LEMO"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            NIM-CAMAC CD/N 549 Connector Plug, Male Pin 50 Ohms Through Hole, Right Angle Solder\n                        \n"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=snap"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "FPL.00.250.NTD"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=eda"
+			(at 26.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5010a65a-018a-46fd-b8d7-79be5700df00")
+		)
+		(pin "SHIELD4"
+			(uuid "01053539-dd99-49d1-882e-01eda5d95233")
+		)
+		(pin "SHIELD1"
+			(uuid "750d4d53-64d6-4378-8741-f90da9289c2e")
+		)
+		(pin "SHIELD2"
+			(uuid "f229d623-5997-419c-a976-dd6821c8386a")
+		)
+		(pin "SHIELD3"
+			(uuid "fb041faa-0b91-4f2d-8de6-d74ba39f8bd0")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "LEMO4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 107.95 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "687c5d90-beec-40c6-9479-47ef766a0a19")
+		(property "Reference" "PIN8"
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 107.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79a27f00-b1af-4b44-9ecf-9531cb48f906")
+		)
+		(pin "4"
+			(uuid "c1adc5a6-05e8-40f9-85d1-9814054030a2")
+		)
+		(pin "3"
+			(uuid "fe5115cd-5e4c-4d03-9792-c7454bcc8282")
+		)
+		(pin "1"
+			(uuid "10dfdaa8-56a5-4c93-a873-bfed92de3f21")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "PIN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEMO_Horizontal2:FPL.00.250.NTD")
+		(at 173.99 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7777eef6-41a6-4600-acd3-e8187e9c27f9")
+		(property "Reference" "LEMO6"
+			(at 175.26 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPL.00.250.NTD"
+			(at 175.26 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEMO_Horizontal2:FPL.00.250.NTD"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LEMO"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            NIM-CAMAC CD/N 549 Connector Plug, Male Pin 50 Ohms Through Hole, Right Angle Solder\n                        \n"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=snap"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "FPL.00.250.NTD"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=eda"
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5010a65a-018a-46fd-b8d7-79be5700df01")
+		)
+		(pin "SHIELD4"
+			(uuid "01053539-dd99-49d1-882e-01eda5d95234")
+		)
+		(pin "SHIELD1"
+			(uuid "750d4d53-64d6-4378-8741-f90da9289c2f")
+		)
+		(pin "SHIELD2"
+			(uuid "f229d623-5997-419c-a976-dd6821c8386b")
+		)
+		(pin "SHIELD3"
+			(uuid "fb041faa-0b91-4f2d-8de6-d74ba39f8bd1")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "LEMO6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x09")
+		(at 213.2984 78.9915 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f6cee39-081f-42a9-ad31-ab26fa213f7b")
+		(property "Reference" "+2V5"
+			(at 213.36 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x09"
+			(at 213.2984 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
+			(at 213.2984 78.9915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.2984 78.9915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.2984 78.9915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b51dba1-50d1-46a6-8779-419dc1984547")
+		)
+		(pin "2"
+			(uuid "a0650c59-0460-4d52-84d4-f786daee4ac9")
+		)
+		(pin "6"
+			(uuid "d0856ade-2030-486b-ad4b-567a58c4b9d0")
+		)
+		(pin "3"
+			(uuid "8c3a9159-05fd-4b27-963e-4ac0058ca180")
+		)
+		(pin "5"
+			(uuid "9c580ccf-fd4f-4359-9eb3-7305b84e37a4")
+		)
+		(pin "8"
+			(uuid "2fd08761-c666-41ab-b335-a7b316b5c637")
+		)
+		(pin "9"
+			(uuid "2bce73f1-0362-4d51-b889-264d1cdbad24")
+		)
+		(pin "7"
+			(uuid "f6b63e96-8874-418a-b819-222ca11ceaab")
+		)
+		(pin "4"
+			(uuid "973cb654-621e-4dd7-a990-ffffb05f9139")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "+2V5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ZF5S-10-03-T-WT_1")
+		(lib_id "FFCZF5S-10-03-T-WT:ZF5S-10-03-T-WT")
+		(at 153.67 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "958e6dbd-bed3-469a-b5a7-f8a6a8c5ffcc")
+		(property "Reference" "FFC8"
+			(at 162.56 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FFC_Connector_Vertical"
+			(at 162.56 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 153.67 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "78583bf1-fd54-4fc5-9309-ac511a7f420a")
+		)
+		(pin "02"
+			(uuid "92790b1d-842a-4bf4-9bab-3556001f81bf")
+		)
+		(pin "05"
+			(uuid "50e0643b-fe52-4d88-9777-ae512bd9e506")
+		)
+		(pin "07"
+			(uuid "76e7abbe-9536-40ea-8684-1f515273a881")
+		)
+		(pin "08"
+			(uuid "a79ce33a-c522-4ac2-8e6e-26208bdccc88")
+		)
+		(pin "06"
+			(uuid "d8d57037-4480-4f0e-9d87-cbcdbd2ed265")
+		)
+		(pin "01"
+			(uuid "1b2b3840-a541-4dc9-8984-c7b06e8e96b3")
+		)
+		(pin "04"
+			(uuid "910a71ee-6b2d-4a44-8bef-4ea7d09f20e9")
+		)
+		(pin "03"
+			(uuid "b18b0155-fd5b-46d8-960f-674768cf794f")
+		)
+		(pin "09"
+			(uuid "27434cf9-ba20-4f2a-b6d9-9c86f8fc7067")
+		)
+		(instances
+			(project "LEMOAdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "FFC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x09")
+		(at 213.36 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a22a6793-a512-4a6c-8844-c743f33190b6")
+		(property "Reference" "-2V5"
+			(at 213.36 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x09"
+			(at 213.36 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfdef33c-4503-4cb3-8aa8-333ac1b50141")
+		)
+		(pin "2"
+			(uuid "03a53f06-f6b2-4929-bbd0-c6b7e2238170")
+		)
+		(pin "6"
+			(uuid "861e42d2-d010-4b4a-b9ae-f61a30f4e410")
+		)
+		(pin "3"
+			(uuid "a902ff5f-50f3-404b-9d2d-38a00493966e")
+		)
+		(pin "5"
+			(uuid "b4840c6c-0a9d-4f04-84ad-3cdc723fbb65")
+		)
+		(pin "8"
+			(uuid "21f5cbe7-090e-43e5-9ab4-8ae62fba2568")
+		)
+		(pin "9"
+			(uuid "b6a04523-6fd3-4f1e-9509-9ebeb9aa1a73")
+		)
+		(pin "7"
+			(uuid "8a44b592-ef6f-4c16-b7bb-67b37df64fe8")
+		)
+		(pin "4"
+			(uuid "58260dbe-44a5-46b1-8884-5afcfbed9db2")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "-2V5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ZF5S-10-03-T-WT_1")
+		(lib_id "FFCZF5S-10-03-T-WT:ZF5S-10-03-T-WT")
+		(at 45.72 73.66 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a62123a5-0510-4578-8eeb-2692aad84b2e")
+		(property "Reference" "FFC2"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FFC_Connector_Vertical"
+			(at 45.72 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 45.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "99123189-b67e-4bba-aa7b-f7af242db52e")
+		)
+		(pin "02"
+			(uuid "ce203728-00b3-473e-848c-b0a5c7c357a9")
+		)
+		(pin "05"
+			(uuid "2a965f87-fffa-4ff6-a923-2d75dce6f29a")
+		)
+		(pin "07"
+			(uuid "966a89fe-c4d9-4a5b-bb98-60a85d26dac0")
+		)
+		(pin "08"
+			(uuid "e8948c30-df6b-406c-a163-3056ee4613a5")
+		)
+		(pin "06"
+			(uuid "fa8ece10-9e2b-4998-a478-905791ed2dbb")
+		)
+		(pin "01"
+			(uuid "616c91eb-e697-4af7-ba2d-355800b8e4c7")
+		)
+		(pin "04"
+			(uuid "f5f289bd-f72c-4cb0-b9a4-6dcbfadeb443")
+		)
+		(pin "03"
+			(uuid "cace0e3a-d157-4e64-bcd0-480b7662f3ca")
+		)
+		(pin "09"
+			(uuid "f8b0db3c-8652-45f2-9d48-c8e582a0071a")
+		)
+		(instances
+			(project "LEMOAdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "FFC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEMO_Horizontal2:FPL.00.250.NTD")
+		(at 171.45 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae5acff0-79a0-4d86-a6df-e3f50fd966bf")
+		(property "Reference" "LEMO7"
+			(at 172.72 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPL.00.250.NTD"
+			(at 172.72 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEMO_Horizontal2:FPL.00.250.NTD"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LEMO"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            NIM-CAMAC CD/N 549 Connector Plug, Male Pin 50 Ohms Through Hole, Right Angle Solder\n                        \n"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=snap"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "FPL.00.250.NTD"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=eda"
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5010a65a-018a-46fd-b8d7-79be5700df02")
+		)
+		(pin "SHIELD4"
+			(uuid "01053539-dd99-49d1-882e-01eda5d95235")
+		)
+		(pin "SHIELD1"
+			(uuid "750d4d53-64d6-4378-8741-f90da9289c30")
+		)
+		(pin "SHIELD2"
+			(uuid "f229d623-5997-419c-a976-dd6821c8386c")
+		)
+		(pin "SHIELD3"
+			(uuid "fb041faa-0b91-4f2d-8de6-d74ba39f8bd2")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "LEMO7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ZF5S-10-03-T-WT_1")
+		(lib_id "FFCZF5S-10-03-T-WT:ZF5S-10-03-T-WT")
+		(at 45.72 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdead2ed-2363-418f-88f3-c286e7d95b25")
+		(property "Reference" "FFC4"
+			(at 45.72 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FFC_Connector_Vertical"
+			(at 45.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 45.72 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "a9654b30-8a51-469a-bd33-de60b1b64e25")
+		)
+		(pin "02"
+			(uuid "2788950f-01fc-4d64-8383-0b9c1c6e68d1")
+		)
+		(pin "05"
+			(uuid "a444ac30-7583-4806-8b17-bd7a385d00eb")
+		)
+		(pin "07"
+			(uuid "28ae4a55-abe8-4fe8-87fd-8d64b010db38")
+		)
+		(pin "08"
+			(uuid "4a5b44b9-590f-422a-a4f6-a31f3184ff6e")
+		)
+		(pin "06"
+			(uuid "d0180117-4474-4859-adb8-5efe2875cb01")
+		)
+		(pin "01"
+			(uuid "105e5969-22af-478e-8f4a-d75038017fb7")
+		)
+		(pin "04"
+			(uuid "29233e6b-80bf-4cd8-bb49-05a7fddee51a")
+		)
+		(pin "03"
+			(uuid "db125567-96c0-4a80-be54-be0e84b9733a")
+		)
+		(pin "09"
+			(uuid "90ff759e-7e73-4332-971c-f7d4ac9a2b91")
+		)
+		(instances
+			(project "LEMOAdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "FFC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 107.95 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c50f8033-db84-47a8-aa41-9dbd7b41c92b")
+		(property "Reference" "PIN6"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 107.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 107.95 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6eb62f5b-4463-4190-8ec3-15bdb558cbda")
+		)
+		(pin "4"
+			(uuid "12f3124a-7011-4d99-b98f-4a9fa3264417")
+		)
+		(pin "3"
+			(uuid "fe1e5b46-7103-4dc5-8830-0689651fa352")
+		)
+		(pin "1"
+			(uuid "8998ae6d-94d7-4bd4-8db7-c63990d03ccc")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "PIN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 107.95 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb5fb8fc-892e-4f3c-83a9-235bc1e3a3b7")
+		(property "Reference" "PIN5"
+			(at 108.585 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 108.585 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 107.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3e916d3-4016-46cc-bca6-dcd56d51354e")
+		)
+		(pin "4"
+			(uuid "b0b700d4-8606-4720-aec8-169ae8a5aafc")
+		)
+		(pin "3"
+			(uuid "cc57ded7-efb4-4c35-8a80-1f253b91489f")
+		)
+		(pin "1"
+			(uuid "2fea8025-51eb-40be-a8a1-d29653879f23")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "PIN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEMO_Horizontal2:FPL.00.250.NTD")
+		(at 27.94 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccee9db1-2fdf-4051-8127-f48a1b7c889e")
+		(property "Reference" "LEMO1"
+			(at 29.21 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPL.00.250.NTD"
+			(at 29.21 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEMO_Horizontal2:FPL.00.250.NTD"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LEMO"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            NIM-CAMAC CD/N 549 Connector Plug, Male Pin 50 Ohms Through Hole, Right Angle Solder\n                        \n"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=snap"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "FPL.00.250.NTD"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=eda"
+			(at 27.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5010a65a-018a-46fd-b8d7-79be5700df03")
+		)
+		(pin "SHIELD4"
+			(uuid "01053539-dd99-49d1-882e-01eda5d95236")
+		)
+		(pin "SHIELD1"
+			(uuid "750d4d53-64d6-4378-8741-f90da9289c31")
+		)
+		(pin "SHIELD2"
+			(uuid "f229d623-5997-419c-a976-dd6821c8386d")
+		)
+		(pin "SHIELD3"
+			(uuid "fb041faa-0b91-4f2d-8de6-d74ba39f8bd3")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "LEMO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x09")
+		(at 213.36 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0a063d7-6eb3-43cf-b0c4-17dd975274aa")
+		(property "Reference" "SiPM_Bias1"
+			(at 213.36 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x09"
+			(at 213.36 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x09_P1.00mm_Vertical"
+			(at 213.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a364ec19-548c-4f67-85f3-00d485f23986")
+		)
+		(pin "2"
+			(uuid "74dab8f3-d81a-43bd-9607-0bc6f0c84866")
+		)
+		(pin "6"
+			(uuid "67ad994e-8c8a-4358-b513-ed680ed330b6")
+		)
+		(pin "3"
+			(uuid "49b3020b-5ff6-43e3-96cb-1358b31f66fd")
+		)
+		(pin "5"
+			(uuid "ec082f9c-6572-4d22-a840-fdc9a57670ff")
+		)
+		(pin "8"
+			(uuid "311e634b-1df2-4e78-a42d-300d64e06afe")
+		)
+		(pin "9"
+			(uuid "6abc0a1a-f0f7-4671-968f-b3345bdc94dc")
+		)
+		(pin "7"
+			(uuid "e90afbb8-2d1a-4eab-88e3-fad7eef165a2")
+		)
+		(pin "4"
+			(uuid "af595919-5c74-428b-ad1f-0a855810d2c6")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "SiPM_Bias1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEMO_Horizontal2:FPL.00.250.NTD")
+		(at 26.67 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d33e10a8-d157-4110-b01e-96225bb7b211")
+		(property "Reference" "LEMO2"
+			(at 27.94 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPL.00.250.NTD"
+			(at 27.94 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEMO_Horizontal2:FPL.00.250.NTD"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LEMO"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            NIM-CAMAC CD/N 549 Connector Plug, Male Pin 50 Ohms Through Hole, Right Angle Solder\n                        \n"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=snap"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "FPL.00.250.NTD"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=eda"
+			(at 26.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5010a65a-018a-46fd-b8d7-79be5700df04")
+		)
+		(pin "SHIELD4"
+			(uuid "01053539-dd99-49d1-882e-01eda5d95237")
+		)
+		(pin "SHIELD1"
+			(uuid "750d4d53-64d6-4378-8741-f90da9289c32")
+		)
+		(pin "SHIELD2"
+			(uuid "f229d623-5997-419c-a976-dd6821c8386e")
+		)
+		(pin "SHIELD3"
+			(uuid "fb041faa-0b91-4f2d-8de6-d74ba39f8bd4")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "LEMO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEMO_Horizontal2:FPL.00.250.NTD")
+		(at 175.26 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8261723-5d6b-43fc-9256-576ae079a1e3")
+		(property "Reference" "LEMO8"
+			(at 176.53 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FPL.00.250.NTD"
+			(at 176.53 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEMO_Horizontal2:FPL.00.250.NTD"
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "LEMO"
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            NIM-CAMAC CD/N 549 Connector Plug, Male Pin 50 Ohms Through Hole, Right Angle Solder\n                        \n"
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=snap"
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "FPL.00.250.NTD"
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/FPL.00.250.NTD/LEMO/view-part/?ref=eda"
+			(at 175.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5010a65a-018a-46fd-b8d7-79be5700df05")
+		)
+		(pin "SHIELD4"
+			(uuid "01053539-dd99-49d1-882e-01eda5d95238")
+		)
+		(pin "SHIELD1"
+			(uuid "750d4d53-64d6-4378-8741-f90da9289c33")
+		)
+		(pin "SHIELD2"
+			(uuid "f229d623-5997-419c-a976-dd6821c8386f")
+		)
+		(pin "SHIELD3"
+			(uuid "fb041faa-0b91-4f2d-8de6-d74ba39f8bd5")
+		)
+		(instances
+			(project ""
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "LEMO8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 90.17 30.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e53aaeda-78e1-4cd1-a056-08b8b7440d2a")
+		(property "Reference" "PIN1"
+			(at 87.63 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 82.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c1d3d65-3c4b-4193-a848-5e1905a54a5f")
+		)
+		(pin "4"
+			(uuid "030cadea-464f-4c48-8833-c8d21b894343")
+		)
+		(pin "3"
+			(uuid "d066af9a-a950-4de7-a996-12c42814f073")
+		)
+		(pin "1"
+			(uuid "b932704d-f221-40bc-9822-429ebae6e94d")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "PIN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ZF5S-10-03-T-WT_1")
+		(lib_id "FFCZF5S-10-03-T-WT:ZF5S-10-03-T-WT")
+		(at 153.67 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef7d7a7b-d2d7-40cc-bf0d-dc6100bef409")
+		(property "Reference" "FFC5"
+			(at 162.56 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FFC_Connector_Vertical"
+			(at 162.56 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "4b228a1a-4d57-4d45-b9e0-85a22d8474d3")
+		)
+		(pin "02"
+			(uuid "c5b0b06d-4374-48c3-bbf1-d37763bee313")
+		)
+		(pin "05"
+			(uuid "5ecccbb2-31ac-415e-ba12-97e7e74bbe21")
+		)
+		(pin "07"
+			(uuid "3616912d-1dfc-4c41-8f33-97102267d375")
+		)
+		(pin "08"
+			(uuid "8a70bec3-d680-4645-9ed4-6b9093da2fb5")
+		)
+		(pin "06"
+			(uuid "483d3703-160c-4ec2-9421-6994442e5a96")
+		)
+		(pin "01"
+			(uuid "0903e93c-0a6b-40be-a92f-7d5c76a639ed")
+		)
+		(pin "04"
+			(uuid "10f4b624-a91a-4dcf-b3c5-bcba6534c2e1")
+		)
+		(pin "03"
+			(uuid "4717ec6b-6c39-404d-b507-62bcf939ee5b")
+		)
+		(pin "09"
+			(uuid "66f693a3-7411-4585-a747-b32458b7697b")
+		)
+		(instances
+			(project "LEMOAdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "FFC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 107.95 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efd5ff7a-bf81-4acb-8775-b40327802e77")
+		(property "Reference" "PIN7"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 107.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd208da7-62b2-4485-a51e-111f1baedd96")
+		)
+		(pin "4"
+			(uuid "c5802d28-e5de-4d7c-983b-1fd544d57e4f")
+		)
+		(pin "3"
+			(uuid "b4598028-c16b-4cef-a866-c8de4fc8086f")
+		)
+		(pin "1"
+			(uuid "3b6cc2c6-bcb0-4e46-8576-837fcf96bbd4")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "PIN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 91.44 111.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb35b525-d8ad-46b0-b99c-4f2305d0e85b")
+		(property "Reference" "PIN3"
+			(at 88.9 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 83.82 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ec47be6-be60-488c-8508-f72bf001065a")
+		)
+		(pin "4"
+			(uuid "b886962d-b2be-4353-ae88-392ef8dc9966")
+		)
+		(pin "3"
+			(uuid "2c1211cd-9182-4b5e-be10-1579bd159259")
+		)
+		(pin "1"
+			(uuid "6cc8f3b5-6ce7-43c7-ada3-6c7e9db087d0")
+		)
+		(instances
+			(project "AdaptorBoard"
+				(path "/90a29a6b-0930-4b18-ad75-feedfe88ac78"
+					(reference "PIN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

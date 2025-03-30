@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-28052024-051722";"";
+"REFERENCE";"FPL.00.250.NTD";"";
+"TraceParts.PartTitle";"PCB elbow plug - FPL.00.250.NTD";"";
+"TraceParts.InstanceId";"90-28052024-0517222N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"LEMO";"";
+"DESIGN";"Elbow plug, non-latching, for printed circuit";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.3";"";

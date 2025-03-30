@@ -177,7 +177,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -12.7 7.62 0)
 				(length 5.08)
 				(name "Signal"
@@ -213,10 +213,10 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin input line
 				(at -12.7 2.54 0)
 				(length 5.08)
-				(name "04"
+				(name "Signal"
 					(effects
 						(font
 							(size 1.016 1.016)
