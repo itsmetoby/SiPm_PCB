@@ -29,8 +29,8 @@
 		(48 "B.Fab" user)
 		(49 "F.Fab" user)
 		(50 "User.1" user "Stiffener")
-		(51 "User.2" user "EM shilding film")
-		(52 "User.3" user)
+		(51 "User.2" user "EM shielding top")
+		(52 "User.3" user "EM shielding btm")
 		(53 "User.4" user)
 		(54 "User.5" user)
 		(55 "User.6" user)
@@ -5647,13 +5647,24 @@
 	)
 	(gr_rect
 		(start 184.138 103.204)
-		(end 247.888 112.204)
+		(end 245.729 112.204)
 		(stroke
 			(width 0.15)
 			(type default)
 		)
 		(fill solid)
 		(layer "User.2")
+		(uuid "dc616247-0f72-4f61-98e0-800ffa52bfb9")
+	)
+	(gr_rect
+		(start 184.138 103.204)
+		(end 245.729 112.204)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.3")
 		(uuid "ad7f0ca1-f6ca-44a4-86ed-1298d2aed95c")
 	)
 	(gr_text "Vb"
@@ -5716,7 +5727,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PI stiffener 0.225mm"
+	(gr_text "stiffener"
 		(at 164.388 100.204 0)
 		(layer "User.1")
 		(uuid "a6315c87-0e08-4581-a4a3-38369f236408")
@@ -5728,10 +5739,22 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "EM shielding film"
+	(gr_text "EM shielding top"
 		(at 196.138 100.454 0)
 		(layer "User.2")
 		(uuid "7bc2cc4e-59a0-4c00-8901-a751ec9164d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "EM shielding btm"
+		(at 210.173 100.465 0)
+		(layer "User.3")
+		(uuid "6da5f063-3cd0-4852-8ec3-becd41b9cbff")
 		(effects
 			(font
 				(size 1 1)
