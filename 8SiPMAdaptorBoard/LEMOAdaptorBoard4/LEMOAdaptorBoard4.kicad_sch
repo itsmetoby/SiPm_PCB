@@ -4832,7 +4832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+		(property "Footprint" "FFC_10position_connector:SAMTEC_ZF5S-10-01-T-WT"
 			(at 45.72 73.66 0)
 			(effects
 				(font
@@ -5250,7 +5250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+		(property "Footprint" "FFC_10position_connector:SAMTEC_ZF5S-10-01-T-WT"
 			(at 45.72 154.94 0)
 			(effects
 				(font
@@ -5596,7 +5596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+		(property "Footprint" "FFC_10position_connector:SAMTEC_ZF5S-10-01-T-WT"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -6100,7 +6100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+		(property "Footprint" "FFC_10position_connector:SAMTEC_ZF5S-10-01-T-WT"
 			(at 153.67 74.93 0)
 			(effects
 				(font
@@ -6286,7 +6286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+		(property "Footprint" "FFC_10position_connector:SAMTEC_ZF5S-10-01-T-WT"
 			(at 153.67 31.75 0)
 			(effects
 				(font
@@ -6472,7 +6472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+		(property "Footprint" "FFC_10position_connector:SAMTEC_ZF5S-10-01-T-WT"
 			(at 153.67 157.48 0)
 			(effects
 				(font
@@ -7300,7 +7300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+		(property "Footprint" "FFC_10position_connector:SAMTEC_ZF5S-10-01-T-WT"
 			(at 153.67 116.84 0)
 			(effects
 				(font
@@ -7484,7 +7484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FFC_10position_vertical:SAMTEC_ZF5S-10-03-T-WT"
+		(property "Footprint" "FFC_10position_connector:SAMTEC_ZF5S-10-01-T-WT"
 			(at 45.72 33.02 0)
 			(effects
 				(font
