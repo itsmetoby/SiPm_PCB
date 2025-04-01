@@ -177,7 +177,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -12.7 7.62 0)
 				(length 5.08)
 				(name "Signal"
