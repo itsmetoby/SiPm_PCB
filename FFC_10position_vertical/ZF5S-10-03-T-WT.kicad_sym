@@ -349,7 +349,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "S1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -367,7 +367,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "S2"
 					(effects
 						(font
 							(size 1.016 1.016)
