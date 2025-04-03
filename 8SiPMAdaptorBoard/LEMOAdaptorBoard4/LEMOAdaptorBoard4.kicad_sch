@@ -6211,16 +6211,6 @@
 		)
 		(uuid "1b570df2-060e-4a31-a7dd-49f189ab0985")
 	)
-	(label "Signal"
-		(at 58.42 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b62e615-695a-49a3-bdb4-a7af2b0c9bcd")
-	)
 	(label "Earth"
 		(at 140.97 157.48 180)
 		(effects
@@ -6270,26 +6260,6 @@
 			(justify right bottom)
 		)
 		(uuid "348a0797-1872-4b36-8438-176041ef1029")
-	)
-	(label "Signal"
-		(at 140.97 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35d5a203-b96a-454e-9da5-cf080ad4ffe5")
-	)
-	(label "Signal"
-		(at 58.42 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36ce1337-a5ea-42ee-9c74-d811b62a25a5")
 	)
 	(label "Earth"
 		(at 140.97 31.75 180)
@@ -6361,7 +6331,7 @@
 		)
 		(uuid "4ce8bba3-8366-4332-9188-696c292f004a")
 	)
-	(label "Signal"
+	(label "Signal2"
 		(at 58.42 81.28 0)
 		(effects
 			(font
@@ -6391,7 +6361,7 @@
 		)
 		(uuid "5047b136-1142-48c2-a8ac-966b125956f6")
 	)
-	(label "Signal"
+	(label "Signal6"
 		(at 140.97 109.22 180)
 		(effects
 			(font
@@ -6471,7 +6441,7 @@
 		)
 		(uuid "5b9bff40-a25a-4ccb-98fb-25a5ad39ee8f")
 	)
-	(label "Signal"
+	(label "Signal7"
 		(at 140.97 67.31 180)
 		(effects
 			(font
@@ -6530,16 +6500,6 @@
 			(justify right bottom)
 		)
 		(uuid "76b220c6-b687-46ff-baa0-d715f17fdb9b")
-	)
-	(label "Signal"
-		(at 140.97 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77feaad1-0bfd-4629-9dcc-243e6f25b993")
 	)
 	(label "Earth"
 		(at 58.42 78.74 0)
@@ -6601,26 +6561,6 @@
 		)
 		(uuid "94bbb135-21fd-44e0-a461-e52ffa9e8cd0")
 	)
-	(label "Signal"
-		(at 140.97 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "95a9c39c-d21f-4831-a808-519a0532cd1d")
-	)
-	(label "Signal"
-		(at 140.97 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9f105db4-5b92-45ad-946f-34296880e80f")
-	)
 	(label "+2V5"
 		(at 140.97 124.46 180)
 		(effects
@@ -6651,7 +6591,7 @@
 		)
 		(uuid "a8adda0f-5ff3-4c43-8d54-cfa2a0e3b82b")
 	)
-	(label "Signal"
+	(label "Signal4"
 		(at 58.42 162.56 0)
 		(effects
 			(font
@@ -6681,16 +6621,6 @@
 		)
 		(uuid "ae5af5b2-895d-4044-8f84-e471f25594ea")
 	)
-	(label "Signal"
-		(at 58.42 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b03366ed-6b88-448c-ac2e-98eac6545aa7")
-	)
 	(label "-2V5"
 		(at 58.42 27.94 0)
 		(effects
@@ -6700,16 +6630,6 @@
 			(justify left bottom)
 		)
 		(uuid "b5153e3b-cbdb-4cfc-a15c-7b3fd2886ce4")
-	)
-	(label "Signal"
-		(at 58.42 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5d03646-27d3-4b3d-a3d6-bf32145005b0")
 	)
 	(label "Earth"
 		(at 58.42 152.4 0)
@@ -6771,7 +6691,7 @@
 		)
 		(uuid "d715827a-d314-4454-83aa-175858afbb10")
 	)
-	(label "Signal"
+	(label "Signal3"
 		(at 58.42 121.92 0)
 		(effects
 			(font
@@ -6801,7 +6721,7 @@
 		)
 		(uuid "e3bbc129-c9cb-46b1-a662-9a2e27aa9498")
 	)
-	(label "Signal"
+	(label "Signal8"
 		(at 140.97 24.13 180)
 		(effects
 			(font
@@ -6911,7 +6831,7 @@
 		)
 		(uuid "f953d77e-6508-478c-8d27-b3b25482b27f")
 	)
-	(label "Signal"
+	(label "Signal1"
 		(at 58.42 40.64 0)
 		(effects
 			(font
@@ -6951,7 +6871,7 @@
 		)
 		(uuid "fe84340b-cd7a-4b4f-9f8d-b727e203a764")
 	)
-	(label "Signal"
+	(label "Signal5"
 		(at 140.97 149.86 180)
 		(effects
 			(font
