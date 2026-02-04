@@ -357,212 +357,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "AFBR-S4N44P014M:AFBR-S4N44P014M"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 36.83 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "AFBR-S4N44P014M"
-				(at 36.83 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "AFBRS4N44P014M"
-				(at 36.83 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
-				(at 36.83 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Photodiode 420nm Single Element"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.23"
-				(at 36.83 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "630-AFBR-S4N44P014M"
-				(at 36.83 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D"
-				(at 36.83 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Avago Technologies"
-				(at 36.83 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "AFBR-S4N44P014M"
-				(at 36.83 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "AFBR-S4N44P014M_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 35.56 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "CATHODE_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "CATHODE_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "ANODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 0 180)
-					(length 5.08)
-					(name "CATHODE_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -2.54 180)
-					(length 5.08)
-					(name "CATHODE_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -816,6 +610,280 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MICROFJ_30035_TSV_TR:MICROFJ-30035-TSV-TR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 30.48 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MICROFJ-30035-TSV-TR"
+				(at 30.48 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "MicroFJ-300XX-TSV_ONS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "MICROFJ-30035-TSV-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "MICROFJ-30035-TSV-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MicroFJ-300XX-TSV_ONS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MICROFJ-30035-TSV-TR_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -12.7) (xy 53.34 -12.7)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 53.34 -12.7) (xy 53.34 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "ANODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 0 180)
+					(length 7.62)
+					(name "CATHODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 -2.54 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 -5.08 180)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 60.96 -7.62 180)
+					(length 7.62)
+					(name "FASTOUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1542,12 +1610,6 @@
 		)
 	)
 	(junction
-		(at 91.44 15.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16f11ca0-3324-4cf1-ba3e-078b04de04fa")
-	)
-	(junction
 		(at 167.64 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1566,64 +1628,16 @@
 		(uuid "350f2526-d162-4a91-b1ba-21e446bd5258")
 	)
 	(junction
-		(at 110.49 101.6)
+		(at 80.01 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37925e17-9ea3-4120-9a54-a926517e2237")
-	)
-	(junction
-		(at 116.84 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ee0603a-e9d7-4acd-a20f-adb053f42fd0")
-	)
-	(junction
-		(at 100.33 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cb8cc63-46ef-4cfb-b562-45c7b8b230b1")
-	)
-	(junction
-		(at 100.33 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f193e82-424f-4a2f-8f2f-3a7d50b54f7d")
+		(uuid "7ba28db4-f72f-4d5a-bb02-0b3fa3bda5b3")
 	)
 	(junction
 		(at 165.1 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f958e56-4b53-44af-bdd0-e1db6cfe396a")
-	)
-	(junction
-		(at 74.93 15.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88b191f7-b11e-44ee-a440-93c0c69cb761")
-	)
-	(junction
-		(at 111.76 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91c72206-5277-4ea8-8884-8f284f915bd0")
-	)
-	(junction
-		(at 91.44 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0204be7-77ab-42d2-91a3-ff3e8cf7389a")
-	)
-	(junction
-		(at 111.76 15.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae94348d-23c7-442a-ba2d-a41c9efce046")
-	)
-	(junction
-		(at 91.44 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5984e99-f86b-4c9f-9939-ed53efb2d46d")
 	)
 	(junction
 		(at 83.82 101.6)
@@ -1637,36 +1651,6 @@
 		(color 0 0 0 0)
 		(uuid "c2194b41-758f-4c21-a7d1-f8ad3cf2dab4")
 	)
-	(junction
-		(at 93.98 15.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c88e1885-e7b4-4a29-834b-b196abf3bdd3")
-	)
-	(junction
-		(at 93.98 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dda41543-a834-446c-a90d-d294d104c84d")
-	)
-	(junction
-		(at 96.52 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2e8ac44-fe30-4a25-8eb2-78600f6c8e04")
-	)
-	(junction
-		(at 96.52 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e62c812c-ef5c-4762-b787-3c1aa8160128")
-	)
-	(junction
-		(at 72.39 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e659d68a-a514-4a6d-818e-95bed282542b")
-	)
 	(wire
 		(pts
 			(xy 156.21 132.08) (xy 157.48 132.08)
@@ -1676,16 +1660,6 @@
 			(type default)
 		)
 		(uuid "01b88274-7504-442e-86dd-ad4669034a81")
-	)
-	(wire
-		(pts
-			(xy 93.98 15.24) (xy 111.76 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08e3704e-a17d-4e53-acf8-59b636ec230d")
 	)
 	(wire
 		(pts
@@ -1709,16 +1683,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 110.49 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11405af7-45d9-499a-9073-e630d6c29176")
-	)
-	(wire
-		(pts
 			(xy 66.04 101.6) (xy 73.66 101.6)
 		)
 		(stroke
@@ -1739,16 +1703,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 55.88) (xy 114.3 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16cdfc35-9379-4090-97fd-65a3e3ceb0e9")
-	)
-	(wire
-		(pts
 			(xy 167.64 101.6) (xy 167.64 134.62)
 		)
 		(stroke
@@ -1756,16 +1710,6 @@
 			(type default)
 		)
 		(uuid "1c79bfb6-7185-44d0-b11f-e0e2def86333")
-	)
-	(wire
-		(pts
-			(xy 74.93 15.24) (xy 91.44 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ed43d6e-6939-4d28-9bd8-29e9375eaae9")
 	)
 	(wire
 		(pts
@@ -1779,16 +1723,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 91.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24f64b6c-ef36-4118-b12d-6d1c8af33881")
-	)
-	(wire
-		(pts
 			(xy 127 93.98) (xy 127 101.6)
 		)
 		(stroke
@@ -1796,16 +1730,6 @@
 			(type default)
 		)
 		(uuid "253a0bf0-15de-4590-8888-ac844f7e3570")
-	)
-	(wire
-		(pts
-			(xy 77.47 55.88) (xy 77.47 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2586f119-e8ba-4eab-b2d9-119d530a8e2e")
 	)
 	(wire
 		(pts
@@ -1849,13 +1773,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 15.24) (xy 93.98 15.24)
+			(xy 105.41 80.01) (xy 105.41 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3ed5490b-9612-4446-94a1-0cfe84eaaa2f")
+		(uuid "39ceb141-f2c0-4e28-9d7c-a917c556200e")
 	)
 	(wire
 		(pts
@@ -1869,13 +1793,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 101.6) (xy 96.52 101.6)
+			(xy 63.5 86.36) (xy 80.01 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4808abf9-c3a7-41b6-979a-1c41f632d495")
+		(uuid "44553686-80b5-4ef0-9076-c679d7c0d86c")
 	)
 	(wire
 		(pts
@@ -1889,16 +1813,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 59.69) (xy 96.52 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c57ce30-c35d-4d58-a308-450e226eb992")
-	)
-	(wire
-		(pts
 			(xy 127 134.62) (xy 130.81 134.62)
 		)
 		(stroke
@@ -1909,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 115.57 101.6)
+			(xy 105.41 101.6) (xy 115.57 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1919,23 +1833,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 60.96) (xy 102.87 60.96)
+			(xy 63.5 19.05) (xy 63.5 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "566cd376-7b96-4553-b8c6-b1e1900f3908")
-	)
-	(wire
-		(pts
-			(xy 111.76 55.88) (xy 111.76 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5caea55e-418d-468b-8bc1-6619190ce15d")
+		(uuid "5046afbc-60cc-4d74-a6a3-7e9a893a6a76")
 	)
 	(wire
 		(pts
@@ -1946,16 +1850,6 @@
 			(type default)
 		)
 		(uuid "63d39f3f-2185-46ea-b069-6ab919440f1d")
-	)
-	(wire
-		(pts
-			(xy 100.33 60.96) (xy 93.98 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6568884a-83bf-4baf-bf4a-84779a39e89d")
 	)
 	(wire
 		(pts
@@ -1976,36 +1870,6 @@
 			(type default)
 		)
 		(uuid "66e4491e-afb8-4cd3-8ea7-eb980b2f104e")
-	)
-	(wire
-		(pts
-			(xy 116.84 59.69) (xy 127 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d54d5bd-14f8-47e9-a3fd-1c70de79cef2")
-	)
-	(wire
-		(pts
-			(xy 100.33 101.6) (xy 102.87 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e1c1816-5236-48c3-b110-7dacdabff243")
-	)
-	(wire
-		(pts
-			(xy 111.76 15.24) (xy 114.3 15.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "736c66da-0373-4a82-bca0-8d49f5b58f11")
 	)
 	(wire
 		(pts
@@ -2039,36 +1903,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 57.15) (xy 91.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5164e2-397c-43ee-afca-4b33d4b5ee9b")
-	)
-	(wire
-		(pts
-			(xy 96.52 101.6) (xy 100.33 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80c1b6e7-cfa5-4ee8-ad1a-8c673c1ee0c1")
-	)
-	(wire
-		(pts
-			(xy 91.44 57.15) (xy 72.39 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88451f7c-aced-4c16-a8f7-9ca81b106636")
-	)
-	(wire
-		(pts
 			(xy 156.21 115.57) (xy 156.21 114.3)
 		)
 		(stroke
@@ -2076,16 +1910,6 @@
 			(type default)
 		)
 		(uuid "8891501e-8099-4f9c-aa2b-c3cfbc6c72fd")
-	)
-	(wire
-		(pts
-			(xy 91.44 55.88) (xy 93.98 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a6c98e3-85bf-4f98-a97f-3b7cfd90b7d7")
 	)
 	(wire
 		(pts
@@ -2099,26 +1923,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 59.69) (xy 116.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fac574f-567a-46eb-a85a-f8719ee7d823")
-	)
-	(wire
-		(pts
-			(xy 93.98 60.96) (xy 93.98 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "912c620e-3676-4d74-9f0d-a88e694b0bb9")
-	)
-	(wire
-		(pts
 			(xy 196.85 101.6) (xy 196.85 118.11)
 		)
 		(stroke
@@ -2129,23 +1933,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 55.88) (xy 72.39 57.15)
+			(xy 87.63 80.01) (xy 105.41 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c8c083c-bee1-4b0e-8fdb-6f732ea85390")
+		(uuid "9a0e6f93-1584-443d-a2c1-23b21a3d1c5c")
 	)
 	(wire
 		(pts
-			(xy 72.39 15.24) (xy 74.93 15.24)
+			(xy 91.44 88.9) (xy 91.44 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ffa0715-d437-4b74-bc86-6a29692f5d6b")
+		(uuid "a993cb7d-3510-4e31-a476-066d22deb7bb")
 	)
 	(wire
 		(pts
@@ -2159,23 +1963,23 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 59.69) (xy 116.84 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b11981a3-9610-4a86-9695-b01bdaaac165")
-	)
-	(wire
-		(pts
-			(xy 83.82 101.6) (xy 93.98 101.6)
+			(xy 83.82 101.6) (xy 91.44 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2c288d0-9da3-4601-9c52-7fed16e53e14")
+	)
+	(wire
+		(pts
+			(xy 80.01 19.05) (xy 63.5 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ce2bc7-65c3-4074-87fc-d04db390f53c")
 	)
 	(wire
 		(pts
@@ -2209,16 +2013,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 101.6) (xy 110.49 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2c9ba5c-3e26-4046-8616-2b1953317181")
-	)
-	(wire
-		(pts
 			(xy 127 93.98) (xy 142.24 93.98)
 		)
 		(stroke
@@ -2239,33 +2033,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 55.88) (xy 74.93 55.88)
+			(xy 80.01 86.36) (xy 80.01 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e856e9e8-e238-4bc1-8fe7-19fcaa9b740f")
+		(uuid "ebbe47b1-ad2c-434c-a1fb-edea84750898")
 	)
 	(wire
 		(pts
-			(xy 96.52 101.6) (xy 96.52 106.68)
+			(xy 80.01 88.9) (xy 91.44 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e9a73436-a372-428a-b488-e3de3c19740b")
-	)
-	(wire
-		(pts
-			(xy 96.52 55.88) (xy 96.52 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e08e8f-2b28-40d7-a57b-108125b6aea0")
+		(uuid "ef898c0a-c08a-463a-b66d-8ee6cd38c2d1")
 	)
 	(wire
 		(pts
@@ -2277,6 +2061,16 @@
 		)
 		(uuid "f8fd82f4-3fa2-477d-bb8a-ebee7f9f86d9")
 	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 80.01 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbab0ce7-e03d-436d-bd00-37892b55f6ab")
+	)
 	(label "Bias"
 		(at 86.36 101.6 0)
 		(effects
@@ -2287,16 +2081,6 @@
 		)
 		(uuid "3e336058-8037-4493-bc79-98592722b53c")
 	)
-	(label "Bias"
-		(at 83.82 15.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48d1e406-79ce-4d05-ac88-a9a2fa9db4b8")
-	)
 	(label "Vout"
 		(at 167.64 111.76 0)
 		(effects
@@ -2306,16 +2090,6 @@
 			(justify left bottom)
 		)
 		(uuid "527f7802-7718-44f9-bc7d-31007e2f6676")
-	)
-	(label "anode"
-		(at 120.65 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8fe56f01-9307-4b25-a4e6-d2517d7d076f")
 	)
 	(label "IN_p"
 		(at 156.21 125.73 0)
@@ -2347,15 +2121,95 @@
 		)
 		(uuid "e6827fad-d31e-4377-8663-88f593e7f8c1")
 	)
-	(label "Bias"
-		(at 82.55 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "MICROFJ_30035_TSV_TR:MICROFJ-30035-TSV-TR")
+		(at 80.01 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a83ba82-6c36-4d1a-bfce-0dd4db2c79a6")
+		(property "Reference" "U1"
+			(at 93.98 48.2599 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
 			)
-			(justify left bottom)
 		)
-		(uuid "f475b1a0-f1df-4d33-84ac-f02b66a8b62b")
+		(property "Value" "MICROFJ-30035-TSV-TR"
+			(at 93.98 50.7999 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MicroFJ-300XX-TSV_ONS"
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "MICROFJ-30035-TSV-TR"
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C2"
+			(uuid "9444d3af-8896-4337-ad09-370e67177c1d")
+		)
+		(pin "B1"
+			(uuid "85edb2f4-e74f-45ac-a93a-e1dda3101af6")
+		)
+		(pin "A3"
+			(uuid "821ff7bd-41bf-4fca-b7f0-59b225a1679d")
+		)
+		(pin "C1"
+			(uuid "4d7b4a20-682c-4e57-84a8-1e5433fbed5f")
+		)
+		(pin "A2"
+			(uuid "f1dcb98d-7853-4baa-9d8b-4b0212894d91")
+		)
+		(pin "C3"
+			(uuid "a2dc8a29-9807-48ce-a997-c5513045c762")
+		)
+		(pin "A1"
+			(uuid "78812f09-6688-41d3-aede-43cc4da7a736")
+		)
+		(pin "B3"
+			(uuid "b6cb941c-ab79-447f-a4e8-e4b534020a51")
+		)
+		(instances
+			(project ""
+				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "OPA354AIDBVTG4:OPA354AIDBVTG4")
@@ -3113,72 +2967,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 110.49 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a524854-32e2-4b63-a54e-fccb2c0a11dd")
-		(property "Reference" "#PWR05"
-			(at 110.49 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 110.49 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 110.49 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c7b7656-4f56-4a3e-9cd3-d2a0e04cd4f5")
-		)
-		(instances
-			(project "SiPm_Design_2"
-				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+2V5")
 		(at 220.98 107.95 90)
 		(unit 1)
@@ -3238,137 +3026,6 @@
 			(project "SiPm_Design_2"
 				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AFBR-S4N44P014M:AFBR-S4N44P014M")
-		(at 100.33 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54a03601-a577-4218-8336-d11b387488dd")
-		(property "Reference" "IC4"
-			(at 109.22 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AFBR-S4N44P014M"
-			(at 109.22 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "S4N44P014M:AFBRS4N44P014M"
-			(at 195.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
-			(at 295.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Photodiode 420nm Single Element"
-			(at 100.33 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.23"
-			(at 495.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-AFBR-S4N44P014M"
-			(at 595.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D"
-			(at 695.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 795.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AFBR-S4N44P014M"
-			(at 895.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "A3"
-			(uuid "af0316fc-f94d-4e15-b499-46848a56158a")
-		)
-		(pin "A1"
-			(uuid "e0897aaf-ad3d-4b41-8737-b0e1c3ceb9b2")
-		)
-		(pin "B2"
-			(uuid "d63c896b-da48-4ec5-a255-64185e9cefa2")
-		)
-		(pin "C1"
-			(uuid "4422c5e1-4261-42aa-a055-c33f5628e6d1")
-		)
-		(pin "C3"
-			(uuid "d9898d05-bd22-43e8-a37e-f9be5fd4b3b1")
-		)
-		(instances
-			(project ""
-				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -4448,72 +4105,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 96.52 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a981f8c2-7485-43f9-9916-fb04e040339f")
-		(property "Reference" "#PWR04"
-			(at 96.52 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 96.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 96.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccff18f0-e2a4-4c35-87e7-6d72c84d34a5")
-		)
-		(instances
-			(project "SiPm_Design_2"
-				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 214.63 55.88 0)
 		(unit 1)
@@ -4953,206 +4544,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 110.49 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "c741dd06-6eb6-4665-82bb-57187bceb561")
-		(property "Reference" "R2"
-			(at 113.03 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50"
-			(at 113.03 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.712 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30f57736-e96a-4e68-83db-24c6d8b53bf9")
-		)
-		(pin "1"
-			(uuid "0d1b382d-477d-48f1-becc-8d0a716fe0a9")
-		)
-		(instances
-			(project ""
-				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AFBR-S4N44P014M:AFBR-S4N44P014M")
-		(at 111.76 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c8b0e451-43dc-4748-80f9-ff88b2a7164f")
-		(property "Reference" "IC5"
-			(at 113.284 34.036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AFBR-S4N44P014M"
-			(at 105.664 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "S4N44P014M:AFBRS4N44P014M"
-			(at 206.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
-			(at 306.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Photodiode 420nm Single Element"
-			(at 111.76 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.23"
-			(at 506.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-AFBR-S4N44P014M"
-			(at 606.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D"
-			(at 706.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 806.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AFBR-S4N44P014M"
-			(at 906.68 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "A3"
-			(uuid "d39f6610-ab6e-4316-9785-2f61330be5d8")
-		)
-		(pin "A1"
-			(uuid "0d92640f-a9b5-4aac-b4b2-062323eac1c2")
-		)
-		(pin "B2"
-			(uuid "7ffe7d83-c973-43f5-b1db-ecaaa5264fdf")
-		)
-		(pin "C1"
-			(uuid "ca0e3e8b-94aa-4b92-ad2e-e6b175c2c66e")
-		)
-		(pin "C3"
-			(uuid "513b0442-1c95-4eb3-b813-0bb29291200d")
-		)
-		(instances
-			(project "SiPm_Design_2"
-				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "IC5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 236.22 113.03 270)
 		(unit 1)
@@ -5212,76 +4603,6 @@
 			(project "SiPm_Design_2"
 				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 96.52 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "d96586aa-6002-43d2-872d-5c8779eb3d30")
-		(property "Reference" "C3"
-			(at 100.33 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n"
-			(at 100.33 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 97.4852 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 96.52 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f65e2c87-259f-44e2-b01e-18ffc6f9b551")
-		)
-		(pin "2"
-			(uuid "c19dff10-6547-40c9-897b-a1152a0d357c")
-		)
-		(instances
-			(project "SiPm_Design_2"
-				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5348,266 +4669,6 @@
 			(project ""
 				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AFBR-S4N44P014M:AFBR-S4N44P014M")
-		(at 72.39 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "def95b88-ce30-4dc3-a7ee-3457b71bd346")
-		(property "Reference" "IC2"
-			(at 72.39 33.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AFBR-S4N44P014M"
-			(at 65.278 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "S4N44P014M:AFBRS4N44P014M"
-			(at 167.31 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
-			(at 267.31 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Photodiode 420nm Single Element"
-			(at 72.39 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.23"
-			(at 467.31 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-AFBR-S4N44P014M"
-			(at 567.31 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D"
-			(at 667.31 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 767.31 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AFBR-S4N44P014M"
-			(at 867.31 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "A3"
-			(uuid "1528004d-6914-4e80-a704-a1c7180d8a2f")
-		)
-		(pin "A1"
-			(uuid "1fd19359-bc99-40e3-8d2d-ecc98a05d2b7")
-		)
-		(pin "B2"
-			(uuid "a143842b-428c-48ac-850d-d7590449d850")
-		)
-		(pin "C1"
-			(uuid "ba099a7d-f191-458d-8c2a-3e51a0449872")
-		)
-		(pin "C3"
-			(uuid "dd48ef71-a592-43e4-a017-1b96e7e296fc")
-		)
-		(instances
-			(project "SiPm_Design_2"
-				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AFBR-S4N44P014M:AFBR-S4N44P014M")
-		(at 91.44 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1f3aa63-9a2a-4e4e-b3df-e20217b1edd8")
-		(property "Reference" "IC3"
-			(at 92.964 34.036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AFBR-S4N44P014M"
-			(at 85.344 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "S4N44P014M:AFBRS4N44P014M"
-			(at 186.36 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://docs.broadcom.com/doc/AFBR-S4N44P014M-NUV-MT-Silicon-Photomultiplier"
-			(at 286.36 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Photodiode 420nm Single Element"
-			(at 91.44 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.23"
-			(at 486.36 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "630-AFBR-S4N44P014M"
-			(at 586.36 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D"
-			(at 686.36 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Avago Technologies"
-			(at 786.36 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AFBR-S4N44P014M"
-			(at 886.36 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "A3"
-			(uuid "664fa0da-9593-48f5-b4e7-58bdcfc23f33")
-		)
-		(pin "A1"
-			(uuid "07dca2ee-fec7-484c-b8d3-6b9fe710e3b0")
-		)
-		(pin "B2"
-			(uuid "5e2ca7ff-b14a-4570-947a-3cfb11b0261f")
-		)
-		(pin "C1"
-			(uuid "3ed067b9-8f34-42fd-a0af-b95e69342037")
-		)
-		(pin "C3"
-			(uuid "f1ec1371-e298-493c-8cf6-32b2c2c232d6")
-		)
-		(instances
-			(project "SiPm_Design_2"
-				(path "/d64cfca3-4032-4a91-b47d-ee8cac34c76a"
-					(reference "IC3")
 					(unit 1)
 				)
 			)
