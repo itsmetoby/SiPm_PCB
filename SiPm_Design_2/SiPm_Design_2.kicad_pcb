@@ -597,7 +597,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/5f8d0e36-d45a-441a-9c44-4858c6b79a33")
 		(sheetname "/")
 		(sheetfile "SiPm_Design_2.kicad_sch")
 		(attr smd)
@@ -798,7 +797,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/74898e42-7d57-4fb5-bdda-3d688e2757d0")
 		(sheetname "/")
 		(sheetfile "SiPm_Design_2.kicad_sch")
 		(attr smd)
@@ -1000,7 +998,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/b4ec8c05-bc55-4108-b7c9-f0584e9c23ed")
 		(sheetname "/")
 		(sheetfile "SiPm_Design_2.kicad_sch")
 		(attr smd dnp)
@@ -1788,7 +1785,7 @@
 		(property "Reference" "R3"
 			(at 2.17475 0.89 0)
 			(layer "F.SilkS")
-			(uuid "28478567-e0b3-4455-bc26-0ec385b5267f")
+			(uuid "bb2033db-f3cc-47ad-9e5b-be55a4d81ce8")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -1799,7 +1796,7 @@
 		(property "Value" "10"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "2b411dec-52dd-476a-9032-c4849e666773")
+			(uuid "6e7a9ca5-1324-44a6-8adf-8d254a1fbe83")
 			(effects
 				(font
 					(size 1 1)
@@ -1812,7 +1809,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0eb1b0d5-7551-4b01-ad06-7d733a2db1dc")
+			(uuid "40f708d0-baec-4ec6-b428-0de00c442a0e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,7 +1822,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a028b312-7ea0-4027-9cf8-8b7a01b2cddf")
+			(uuid "4c97e5ba-72d0-454c-92aa-ad12bc3aa601")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2235,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/98bff775-20b9-4608-b7b5-7e0e8969cb8c")
 		(sheetname "/")
 		(sheetfile "SiPm_Design_2.kicad_sch")
 		(attr smd)
@@ -2525,7 +2521,6 @@
 				)
 			)
 		)
-		(path "/15e1f6a7-d35b-4ac8-9251-fd11f406685e")
 		(sheetname "/")
 		(sheetfile "SiPm_Design_2.kicad_sch")
 		(attr smd)
@@ -2977,7 +2972,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/f5f00c3f-145c-4a22-8e93-7ad3a0a9d3e6")
 		(sheetname "/")
 		(sheetfile "SiPm_Design_2.kicad_sch")
 		(attr smd)
@@ -3869,7 +3863,6 @@
 				)
 			)
 		)
-		(path "/b5442e79-f49e-41a7-b374-75fa1ab5ca41")
 		(sheetname "/")
 		(sheetfile "SiPm_Design_2.kicad_sch")
 		(attr smd)
