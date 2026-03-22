@@ -1,0 +1,380 @@
+
+**** 05/26/21 14:43:51 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientSimulation"  [ C:\Users\a0232073\Downloads\OPA354\OPA354-PSpiceFiles\SCHEMATIC1\TransientSimulation
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TransientSimulation.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "C:\Users\a0232073\Downloads\OPA354\OPA354-PSpiceFiles\SCHEMATIC1\TransientSimulation\TransientSimulation_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+
+**** INCLUDING TransientSimulation_profile.inc ****
+.LIB    ".\OPA354.lib" 
+
+**** RESUMING TransientSimulation.cir ****
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ns 0 0.1e-9 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OPA354
+R_R2         VREF N04826  604 TC=0,0 
+V_V4         VIN VREF  AC 1
++SIN 0 1 10e6 0 0 0
+V_V1         7 0 5Vdc
+R_R1         N04826 VOUT  604 TC=0,0 
+R_R4         VOUT VREF  1000 TC=0,0 
+V_V3         VEE 0 0Vdc
+V_V2         VREF 0 2.5Vdc
+X_U1         VIN N04826 7 VEE VOUT OPA354
+
+**** RESUMING TransientSimulation.cir ****
+.END
+
+**** 05/26/21 14:43:51 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientSimulation"  [ C:\Users\a0232073\Downloads\OPA354\OPA354-PSpiceFiles\SCHEMATIC1\TransientSimulation
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DVN_OPA354 X_U1.DD_OPA354  X_U1.DIN_OPA354 
+          IS  100.000000E-18   10.000000E-15   10.000000E-15 
+          KF    8.000000E-12                                 
+
+
+**** 05/26/21 14:43:51 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientSimulation"  [ C:\Users\a0232073\Downloads\OPA354\OPA354-PSpiceFiles\SCHEMATIC1\TransientSimulation
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.QLN_OPA354 X_U1.QLP_OPA354 
+               NPN             PNP             
+       LEVEL    1               1            
+          IS  100.000000E-18  100.000000E-18 
+          BF  100             100            
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 05/26/21 14:43:51 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientSimulation"  [ C:\Users\a0232073\Downloads\OPA354\OPA354-PSpiceFiles\SCHEMATIC1\TransientSimulation
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JNC_OPA354 
+               NJF             
+         VTO   -2            
+        BETA  100.000000E-06 
+
+
+**** 05/26/21 14:43:51 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientSimulation"  [ C:\Users\a0232073\Downloads\OPA354\OPA354-PSpiceFiles\SCHEMATIC1\TransientSimulation
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.POUT_OPA354 
+               PMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO    -.7          
+          KP  200.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ    0            
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+               X_U1.NOUT_OPA354                X_U1.PIN_OPA354 X_U1.NIN_OPA354 
+               NMOS                            PMOS            NMOS            
+       LEVEL    1                               1               1            
+           L  100.000000E-06                  100.000000E-06  100.000000E-06 
+           W  100.000000E-06                  100.000000E-06  100.000000E-06 
+         VTO     .7                             -.7              .7          
+          KP  200.000000E-06                  200.000000E-06  200.000000E-06 
+       GAMMA    0                               0               0            
+         PHI     .6                              .6              .6          
+      LAMBDA    0                               0               0            
+          IS   10.000000E-15                   10.000000E-15   10.000000E-15 
+          JS    0                               0               0            
+          PB     .8                              .8              .8          
+        PBSW     .8                              .8              .8          
+          CJ    0                               0               0            
+        CJSW    0                               0               0            
+        CGSO    0                               0               0            
+        CGDO    0                               0               0            
+        CGBO    0                               0               0            
+         TOX    0                               0               0            
+          XJ    0                               0               0            
+       UCRIT   10.000000E+03                   10.000000E+03   10.000000E+03 
+      DIOMOD    1                               1               1            
+         VFB    0                               0               0            
+        LETA    0                               0               0            
+        WETA    0                               0               0            
+          U0    0                               0               0            
+        TEMP    0                               0               0            
+         VDD    5                               5               5            
+       XPART    0                               0               0            
+
+
+               X_U1.NEN_OPA354 X_U1.PEN_OPA354 X_U1.PSW_OPA354 X_U1.NSW_OPA354 
+               NMOS            PMOS            PMOS            NMOS            
+       LEVEL    1               1               1               1            
+           L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+         VTO     .5             -.7            -7.5             7.5          
+          KP  200.000000E-06  200.000000E-06  200.000000E-06  200.000000E-06 
+       GAMMA    0               0               0               0            
+         PHI     .6              .6              .6              .6          
+      LAMBDA    0               0               0               0            
+          IS    1.000000E-18    1.000000E-18    1.000000E-18    1.000000E-18 
+          JS    0               0               0               0            
+          PB     .8              .8              .8              .8          
+        PBSW     .8              .8              .8              .8          
+          CJ    0               0               0               0            
+        CJSW    0               0               0               0            
+        CGSO    0               0               0               0            
+        CGDO    0               0               0               0            
+        CGBO    0               0               0               0            
+         TOX    0               0               0               0            
+          XJ    0               0               0               0            
+       UCRIT   10.000000E+03   10.000000E+03   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1               1               1            
+         VFB    0               0               0               0            
+        LETA    0               0               0               0            
+        WETA    0               0               0               0            
+          U0    0               0               0               0            
+        TEMP    0               0               0               0            
+         VDD    5               5               5               5            
+       XPART    0               0               0               0            
+
+
+**** 05/26/21 14:43:51 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientSimulation"  [ C:\Users\a0232073\Downloads\OPA354\OPA354-PSpiceFiles\SCHEMATIC1\TransientSimulation
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    7)    5.0000  (  VEE)    0.0000  (  VIN)    2.5000  ( VOUT)    2.5021      
+
+( VREF)    2.5000  (N04826)    2.5011 (X_U1.6)     .8016 (X_U1.7)     .0034     
+
+(X_U1.8)    0.0000 (X_U1.9)    3.3947 (X_U1.10)    3.3987                       
+
+(X_U1.11)    3.3947                   (X_U1.12)     .0034                       
+
+(X_U1.13)    4.9965                   (X_U1.14)    4.9965                       
+
+(X_U1.15)    2.4998                   (X_U1.16)    2.4998                       
+
+(X_U1.17)    4.9966                   (X_U1.18)    5.0000                       
+
+(X_U1.19)     .0034                   (X_U1.20)    2.5021                       
+
+(X_U1.21)     .5955                   (X_U1.22)     .5955                       
+
+(X_U1.23)     .7147                   (X_U1.24)     .7147                       
+
+(X_U1.25)    2.5011                   (X_U1.26)    2.5018                       
+
+(X_U1.27)    5.0000                   (X_U1.28)    0.0000                       
+
+(X_U1.29)    2.5014                   (X_U1.30)    2.5014                       
+
+(X_U1.31) 500.0E-06                   (X_U1.32)    0.0000                       
+
+(X_U1.33) 250.1E-06                   (X_U1.34)    2.5001                       
+
+(X_U1.35)    2.5011                   (X_U1.36)    2.5018                       
+
+(X_U1.37)    2.5001                   (X_U1.38)    2.5000                       
+
+(X_U1.39)    2.4952                   (X_U1.40)     .9309                       
+
+(X_U1.41)    2.5090                   (X_U1.42)    4.0688                       
+
+(X_U1.43)    4.0716                   (X_U1.44)     .4000                       
+
+(X_U1.45)    2.5011                   (X_U1.46)     .4000                       
+
+(X_U1.47)     .9284                   (X_U1.48)    4.0688                       
+
+(X_U1.49)     .9309                   (X_U1.50)    2.5000                       
+
+(X_U1.51)    4.1981                   (X_U1.52)    5.0000                       
+
+(X_U1.53)    2.5031                   (X_U1.54)    2.6704                       
+
+(X_U1.55)    2.6704                   (X_U1.56)    5.0000                       
+
+(X_U1.57)    2.6704                   (X_U1.58)     .7000                       
+
+(X_U1.59)    3.7000                   (X_U1.60)    3.3987                       
+
+(X_U1.61)    3.3987                   (X_U1.62)    4.0809                       
+
+(X_U1.63)    2.5000                   (X_U1.64)    5.0000                       
+
+(X_U1.65)    0.0000                   (X_U1.66)    2.5000                       
+
+(X_U1.67)    2.5000                   (X_U1.68)    3.5866                       
+
+(X_U1.69)    1.4052                   (X_U1.70)     .9309                       
+
+(X_U1.71)    4.0688                   (X_U1.72)    1.0000                       
+
+(X_U1.73)    1.0000                   (X_U1.74)   32.5000                       
+
+(X_U1.75)  -27.5000                   (X_U1.76)  -12.5000                       
+
+(X_U1.77)   17.5000                   (X_U1.78)    2.1509                       
+
+(X_U1.79)    1.6666                   (X_U1.80)     .0056                       
+
+(X_U1.81)    5.0000                   (X_U1.82)    1.0000                       
+
+(X_U1.83)    1.0000                   (X_U1.84)    4.2859                       
+
+(X_U1.85)    1.0000                   (X_U1.86)    1.0000                       
+
+(X_U1.87)    1.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V4        -3.509E-12
+    V_V1        -4.937E-03
+    V_V3         4.933E-03
+    V_V2         3.838E-06
+    X_U1.V18     0.000E+00
+    X_U1.V19     0.000E+00
+    X_U1.V20     0.000E+00
+    X_U1.V21     4.000E-04
+    X_U1.V49     0.000E+00
+    X_U1.V50     8.074E-20
+    X_U1.V51    -4.000E-12
+    X_U1.V52     1.000E-12
+    X_U1.V78     1.003E-11
+    X_U1.V79     1.005E-11
+    X_U1.V80     1.000E-12
+
+    TOTAL POWER DISSIPATION   2.47E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/26/21 14:43:51 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TransientSimulation"  [ C:\Users\a0232073\Downloads\OPA354\OPA354-PSpiceFiles\SCHEMATIC1\TransientSimulation
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =       21.25
+  Total job time (using Solver 1)   =        1.83
+

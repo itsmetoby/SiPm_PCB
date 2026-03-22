@@ -1,0 +1,10 @@
+* source OPA354
+R_R2         VREF N04826  604 TC=0,0 
+V_V4         VIN VREF  AC 1
++SIN 0 1 10e6 0 0 0
+V_V1         7 0 5Vdc
+R_R1         N04826 VOUT  604 TC=0,0 
+R_R4         VOUT VREF  1000 TC=0,0 
+V_V3         VEE 0 0Vdc
+V_V2         VREF 0 2.5Vdc
+X_U1         VIN N04826 7 VEE VOUT OPA354

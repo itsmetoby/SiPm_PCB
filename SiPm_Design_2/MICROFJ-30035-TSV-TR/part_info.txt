@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=MICROFJ-30035-TSV-TR
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=8
+Version=5.2
+Released=2022-12-21 14:46:57
+Downloaded=2026-02-01 15:27:55
+3D=Y

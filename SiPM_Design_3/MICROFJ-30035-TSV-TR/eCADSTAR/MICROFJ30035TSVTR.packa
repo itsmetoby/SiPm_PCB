@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MICROFJ-30035-TSV-TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-04-02-05:57:43)
+    (mountForm default
+        (footprintRef "MICROFJ30035TSVTR")
+        (spec "System")
+    )
+)

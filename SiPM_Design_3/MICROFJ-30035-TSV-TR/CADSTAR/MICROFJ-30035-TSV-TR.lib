@@ -1,0 +1,19 @@
+.MICROFJ-30035-TSV-TR :1 ;High-density microcells; Optimized for high-performance timing applications, such as ToF-PET; Ultra-low dark count rates of 50 kHz/mm2 typical; J-Series sensors feature ON Semiconductor's unique 'fast output' terminal; Exceptional breakdown voltage uniformity of +/-250 mV; Temperature stability of 21.5 mV/C; 3 mm, 4 mm and 6 mm sensor sizes; Available in a reflow solder compatible TSV chip-scale package; Bias voltage of <30 V
+MICROFJ30035TSVTR
+*STM IC
+*NGS
+*PNM 1=A1 2=A2 3=A3 4=B1 5=B3 6=C1 7=C2 8=C3
+*PLB 1="CATHODE_1" 2="NO CONNECT_1" 3="NO CONNECT_2" 4="ANODE" 5="FAST OUTPUT" 6="NO CONNECT_3" 7="NO CONNECT_4" 8="CATHODE_2"
+*MXP 8
+*DFN MICROFJ-30035-TSV-TR
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (MICROFJ-30035-TSV-TR)
+~!Mouser Part Number (863-MFJ30035TSVTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi/MICROFJ-30035-TSV-TR?qs=byeeYqUIh0NWig1VlbDyxw%3D%3D)
+~!Arrow Part Number (MICROFJ-30035-TSV-TR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/microfj-30035-tsv-tr/on-semiconductor?region=nac)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/MICROJ-SERIES-D.PDF)
+~!Height (0.69mm)
+~!3D_Model (MICROFJ-30035-TSV-TR)
+MICROFJ-30035-TSV-TR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

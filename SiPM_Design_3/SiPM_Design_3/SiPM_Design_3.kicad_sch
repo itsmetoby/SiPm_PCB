@@ -1,0 +1,302 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "42e5e296-4724-4b8a-9e1d-1289b062f7bf")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 156.21 92.71) (xy 165.1 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a179c9-7646-47dc-bc31-85f2428d9afe")
+	)
+	(wire
+		(pts
+			(xy 156.21 143.51) (xy 165.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903e8f7b-977e-4fca-a8e2-ca3fe2a03c7d")
+	)
+	(wire
+		(pts
+			(xy 156.21 134.62) (xy 165.1 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ca84bf-527f-4b15-ad7a-0a606477cce9")
+	)
+	(wire
+		(pts
+			(xy 156.21 83.82) (xy 165.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c646be-0e3b-4676-8dfc-6a00a7c6dc5c")
+	)
+	(sheet
+		(at 165.1 127)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "43a7da18-6cda-4cef-a855-7f68691ad6f3")
+		(property "Sheetname" "FEE_FPC_2"
+			(at 165.1 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FEE_FPC.kicad_sch"
+			(at 165.1 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "bias" output
+			(at 165.1 134.62 180)
+			(uuid "ab3db125-01d1-4458-aea8-f83af4a1bd70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIn" input
+			(at 165.1 143.51 180)
+			(uuid "1d881908-a5a1-4874-a819-a820468e6933")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SiPM_Design_3"
+				(path "/42e5e296-4724-4b8a-9e1d-1289b062f7bf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 76.2)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c4ac002-ff12-462b-83e9-3da60f315eaf")
+		(property "Sheetname" "FEE_FPC_1"
+			(at 165.1 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FEE_FPC.kicad_sch"
+			(at 165.1 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIn" input
+			(at 165.1 92.71 180)
+			(uuid "099dbe2b-4150-41fb-84a7-b079a57eab3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "bias" output
+			(at 165.1 83.82 180)
+			(uuid "9a4a6283-ccac-4eaa-a738-56606c279db3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SiPM_Design_3"
+				(path "/42e5e296-4724-4b8a-9e1d-1289b062f7bf"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 127)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9edb39ad-8002-4575-99bf-dda99a2c9c43")
+		(property "Sheetname" "SiPM_broadcom"
+			(at 118.11 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SiPM_broadcom.kicad_sch"
+			(at 118.11 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SOut" output
+			(at 156.21 143.51 0)
+			(uuid "58e25bb6-72a7-433a-8619-52d049552122")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Bias" input
+			(at 156.21 134.62 0)
+			(uuid "e4b4f2eb-f9d9-46ab-800d-145a86017835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SiPM_Design_3"
+				(path "/42e5e296-4724-4b8a-9e1d-1289b062f7bf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 76.2)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae36c1c3-20f9-45eb-93fd-952780d03ab1")
+		(property "Sheetname" "SiPM_onsemi"
+			(at 118.11 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SiPM_onsemi.kicad_sch"
+			(at 118.11 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SOut" output
+			(at 156.21 92.71 0)
+			(uuid "7de185bc-dd1b-45d5-8122-8c257d5c22a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Bias" input
+			(at 156.21 83.82 0)
+			(uuid "641fb94a-dce4-4d1d-83f6-54a039844dde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SiPM_Design_3"
+				(path "/42e5e296-4724-4b8a-9e1d-1289b062f7bf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

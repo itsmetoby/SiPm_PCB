@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AFBR-S4N44P014M")(type "KiCad")(uri "F:/github/SiPm_PCB/SiPM_Design_3/LIB_AFBR-S4N44P014M/AFBR-S4N44P014M/KiCad/AFBR-S4N44P014M.kicad_sym")(options "")(descr ""))
+  (lib (name "MICROFJ-30035-TSV-TR")(type "KiCad")(uri "F:/github/SiPm_PCB/SiPM_Design_3/MICROFJ-30035-TSV-TR/KiCad/MICROFJ-30035-TSV-TR.kicad_sym")(options "")(descr ""))
+)

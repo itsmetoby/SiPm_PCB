@@ -5,4 +5,5 @@
   (lib (name "LIB_OPA2354AIDDARG3")(type "KiCad")(uri "F:/github/SiPm_PCB/LIB_OPA2354AIDDARG3")(options "")(descr ""))
   (lib (name "LIB_OPA354AIDBVTG4")(type "KiCad")(uri "F:/github/SiPm_PCB/LIB_OPA354AIDBVTG4")(options "")(descr ""))
   (lib (name "FPC 0.5 10P")(type "KiCad")(uri "F:/github/SiPm_PCB/1-1734839-0/KiCad")(options "")(descr ""))
+  (lib (name "J-30035")(type "KiCad")(uri "${KIPRJMOD}/MICROFJ-30035-TSV-TR/KiCad")(options "")(descr ""))
 )

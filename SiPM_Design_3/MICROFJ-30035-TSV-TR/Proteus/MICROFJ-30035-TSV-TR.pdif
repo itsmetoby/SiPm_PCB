@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MICROFJ-30035-TSV-TR"
+   (description "High-density microcells; Optimized for high-performance timing applications, such as ToF-PET; Ultra-low dark count rates of 50 kHz/mm2 typical; J-Series sensors feature ON Semiconductor\'s unique \'fast output\' terminal; Exceptional breakdown voltage uniformity of +/-250 mV; Temperature stability of 21.5 mV/C; 3 mm, 4 mm and 6 mm sensor sizes; Available in a reflow solder compatible TSV chip-scale package; Bias voltage of <30 V")
+   (family "ANA")
+   (package "MICROFJ30035TSVTR")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/MICROJ-SERIES-D.PDF")
+   (attribute "Geometry.Height" "0.69mm")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "MICROFJ-30035-TSV-TR")
+   (attribute "Mouser Part Number" "863-MFJ30035TSVTR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MICROFJ-30035-TSV-TR?qs=byeeYqUIh0NWig1VlbDyxw%3D%3D")
+   (attribute "Arrow Part Number" "MICROFJ-30035-TSV-TR")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/microfj-30035-tsv-tr/on-semiconductor?region=nac")
+   (gate
+    (symbol "MICROFJ-30035-TSV-TR")
+    (pin "CATHODE_1" A1 PS)
+    (pin "NO_CONNECT_1" A2 PS)
+    (pin "NO_CONNECT_2" A3 PS)
+    (pin "ANODE" B1 PS)
+    (pin "FAST_OUTPUT" B3 PS)
+    (pin "NO_CONNECT_3" C1 PS)
+    (pin "NO_CONNECT_4" C2 PS)
+    (pin "CATHODE_2" C3 PS)
+   )
+  )
+  (symbol "MICROFJ-30035-TSV-TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1700 100) (pt 1700 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1900 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1900 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1900 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MICROFJ30035TSVTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.58 1.58)
+      (pt 1.58 1.58)
+      (pt 1.58 -1.58)
+      (pt -1.58 -1.58)
+      (pt -1.58 1.58))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.58 2.58)
+      (pt 2.58 2.58)
+      (pt 2.58 -2.58)
+      (pt -2.58 -2.58)
+      (pt -2.58 2.58))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.1 1.26)
+      (arc (pt -2.100 1.260) (pt -2.200 1.210) (pt -2.100 1.310) (start 180.0) (sweep .0))
+      (pt -2.2 1.26)
+      (arc (pt -2.200 1.260) (pt -2.200 1.210) (pt -2.100 1.310) (start 180.0) (sweep 180.0))
+      (pt -2.1 1.26))))
+   (leg A1 (pt -1.260 1.260) (padstack 0))
+   (leg A2 (pt 0.000 1.260) (padstack 0))
+   (leg A3 (pt 1.260 1.260) (padstack 0))
+   (leg B1 (pt -1.260 0.000) (padstack 0))
+   (leg B3 (pt 1.260 0.000) (padstack 0))
+   (leg C1 (pt -1.260 -1.260) (padstack 0))
+   (leg C2 (pt 0.000 -1.260) (padstack 0))
+   (leg C3 (pt 1.260 -1.260) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (round 0.270))
+   )
+   (model "MICROFJ-30035-TSV-TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

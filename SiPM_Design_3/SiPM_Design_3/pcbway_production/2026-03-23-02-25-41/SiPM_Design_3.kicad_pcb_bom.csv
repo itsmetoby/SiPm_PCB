@@ -1,0 +1,17 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Height,Manufacturer_Name,Mouser Part Number,Mouser Price/Stock,Arrow Part Number,Arrow Price/Stock
+"C1, C10, C15, C16, C2, C7, C8, C9",8,100n,C_0603_1608Metric,,,,smt,"SMD 0603 MLCC capacitor, Alternate KiCad Library",,,,,,
+C11,1,1p,C_0402_1005Metric,,,Yes,smt,"SMD 0402 MLCC capacitor, Alternate KiCad Library",,,,,,
+"C12, C13, C4, C5",4,10n,C_0402_1005Metric,,,,smt,"SMD 0402 MLCC capacitor, Alternate KiCad Library",,,,,,
+"C14, C6",2,1u,C_0603_1608Metric,,,,smt,"SMD 0603 MLCC capacitor, Alternate KiCad Library",,,,,,
+C3,1,1p,C_0402_1005Metric,,,Yes,smt,"SMD 0402 MLCC capacitor, Alternate KiCad Library",,,,,,
+IC1,1,MICROFJ-30035-TSV-TR,MICROFJ30035TSVTR_offset,,MICROFJ-30035-TSV-TR,Yes,smt,"High-density microcells; Optimized for high-performance timing applications, such as ToF-PET; Ultra-low dark count rates of 50 kHz/mm2 typical; J-Series sensors feature ON Semiconductor\'s unique \'fast output\' terminal; Exceptional breakdown voltage uniformity of +/-250 mV; Temperature stability of 21.5 mV/C; 3 mm, 4 mm and 6 mm sensor sizes; Available in a reflow solder compatible TSV chip-scale package; Bias voltage of <30 V",0.69,onsemi,863-MFJ30035TSVTR,https://www.mouser.co.uk/ProductDetail/onsemi/MICROFJ-30035-TSV-TR?qs=byeeYqUIh0NWig1VlbDyxw%3D%3D,MICROFJ-30035-TSV-TR,https://www.arrow.com/en/products/microfj-30035-tsv-tr/on-semiconductor?region=nac
+IC2,1,MICROFJ-30035-TSV-TR,MICROFJ30035TSVTR_offset,,MICROFJ-30035-TSV-TR,,smt,"High-density microcells; Optimized for high-performance timing applications, such as ToF-PET; Ultra-low dark count rates of 50 kHz/mm2 typical; J-Series sensors feature ON Semiconductor\'s unique \'fast output\' terminal; Exceptional breakdown voltage uniformity of +/-250 mV; Temperature stability of 21.5 mV/C; 3 mm, 4 mm and 6 mm sensor sizes; Available in a reflow solder compatible TSV chip-scale package; Bias voltage of <30 V",0.69,onsemi,863-MFJ30035TSVTR,https://www.mouser.co.uk/ProductDetail/onsemi/MICROFJ-30035-TSV-TR?qs=byeeYqUIh0NWig1VlbDyxw%3D%3D,MICROFJ-30035-TSV-TR,https://www.arrow.com/en/products/microfj-30035-tsv-tr/on-semiconductor?region=nac
+IC3,1,AFBR-S4N44P014M,AFBRS4N44P014M_offset,,AFBR-S4N44P014M,Yes,smt,Photodiode 420nm Single Element,1.23,Avago Technologies,630-AFBR-S4N44P014M,https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D,,
+IC4,1,AFBR-S4N44P014M,AFBRS4N44P014M_offset,,AFBR-S4N44P014M,,smt,Photodiode 420nm Single Element,1.23,Avago Technologies,630-AFBR-S4N44P014M,https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/AFBR-S4N44P014M?qs=OcgtsXO%252B3gvCU3dbtxthow%3D%3D,,
+"J1, J2",2,Conn_01x10_Socket,Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal,,,,smt,"Generic connector, single row, 01x10, script generated",,,,,,
+R1,1,50,R_0603_1608Metric,,,Yes,smt,"SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library",,,,,,
+"R10, R4",2,0,R_0603_1608Metric,,,,smt,"SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library",,,,,,
+"R11, R2, R3, R5, R8, R9",6,200,R_0603_1608Metric,,,,smt,"SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library",,,,,,
+"R12, R6",2,50,R_0603_1608Metric,,,,smt,"SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library",,,,,,
+R7,1,50,R_0603_1608Metric,,,Yes,smt,"SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library",,,,,,
+"U1, U2",2,LMH6609MF,SOT-23-5,,,,smt,"900MHz Voltage Feedback Op Amp, SOT-23-5",,,,,,

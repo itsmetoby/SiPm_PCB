@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SiPM_Library")(type "KiCad")(uri "${KIPRJMOD}/SiPM_Library.pretty")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "F:/github/SiPm_PCB/SiPM_Design_3/LIB_AFBR-S4N44P014M/AFBR-S4N44P014M/KiCad.pretty")(options "")(descr ""))
+)

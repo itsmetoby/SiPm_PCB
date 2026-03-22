@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MICROFJ30035TSVTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MICROFJ30035TSVTR")
+        (spec "default")
+    )
+)
